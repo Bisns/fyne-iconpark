@@ -9,6 +9,7 @@ import (
 	"go/token"
 	"os"
 	"strings"
+	"unicode"
 )
 
 // Go reserved keywords
@@ -41,8 +42,8 @@ var keywords = map[string]bool{
 }
 
 func cutResourceName(s string) string {
-	s = strings.TrimLeft(s, "resource")
-	s = strings.TrimRight(s, "Svg")
+	s = strings.TrimPrefix(s, "resource")
+	s = strings.Replace(s, "Svg", "", 1)
 	s = strings.ToLower(s)
 	if _, exist := keywords[s]; exist {
 		s += "_"
@@ -54,7 +55,7 @@ func createGetterFuncName(s string) (string, string) {
 	if _, exist := keywords[s[:len(s)-1]]; exist {
 		s = s[:len(s)-1]
 	}
-	s = strings.Title(s)
+	s = Capitalize(s)
 	return s + "Icon", s
 }
 
@@ -147,6 +148,23 @@ func run(args []string) error {
 		return err
 	}
 	return nil
+}
+
+func Capitalize(s string) string {
+	if len(s) == 0 {
+		return ""
+	}
+
+	out := make([]rune, len(s))
+	for i, v := range s {
+		if i == 0 {
+			out[i] = unicode.ToUpper(v)
+		} else {
+			out[i] = unicode.ToLower(v)
+		}
+	}
+
+	return string(out)
 }
 
 func main() {
