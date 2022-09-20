@@ -51,7 +51,7 @@ var (
 	rightuser              *theme.ThemedResource
 	turnaround             *theme.ThemedResource
 	userbusiness           *theme.ThemedResource
-	userpositionin         *theme.ThemedResource
+	userpositioning        *theme.ThemedResource
 	usertousertransmission *theme.ThemedResource
 	user                   *theme.ThemedResource
 	weixinpeoplenearby     *theme.ThemedResource
@@ -104,7 +104,7 @@ func init() {
 	rightuser = theme.NewThemedResource(resourceRightUserSvg)
 	turnaround = theme.NewThemedResource(resourceTurnAroundSvg)
 	userbusiness = theme.NewThemedResource(resourceUserBusinessSvg)
-	userpositionin = theme.NewThemedResource(resourceUserPositioningSvg)
+	userpositioning = theme.NewThemedResource(resourceUserPositioningSvg)
 	usertousertransmission = theme.NewThemedResource(resourceUserToUserTransmissionSvg)
 	user = theme.NewThemedResource(resourceUserSvg)
 	weixinpeoplenearby = theme.NewThemedResource(resourceWeixinPeopleNearbySvg)
@@ -328,9 +328,9 @@ func UserbusinessIcon() fyne.Resource {
 	return userbusiness
 }
 
-// UserpositioninIcon returns Userpositionin icon resource
-func UserpositioninIcon() fyne.Resource {
-	return userpositionin
+// UserpositioningIcon returns Userpositioning icon resource
+func UserpositioningIcon() fyne.Resource {
+	return userpositioning
 }
 
 // UsertousertransmissionIcon returns Usertousertransmission icon resource

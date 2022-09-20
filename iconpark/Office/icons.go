@@ -73,7 +73,7 @@ var (
 	filedisplay         *theme.ThemedResource
 	filedoc             *theme.ThemedResource
 	fileeditingone      *theme.ThemedResource
-	fileeditin          *theme.ThemedResource
+	fileediting         *theme.ThemedResource
 	fileexcel           *theme.ThemedResource
 	filefailedone       *theme.ThemedResource
 	filefailed          *theme.ThemedResource
@@ -83,8 +83,8 @@ var (
 	filehashone         *theme.ThemedResource
 	filehash            *theme.ThemedResource
 	filehidingone       *theme.ThemedResource
-	filehidin           *theme.ThemedResource
-	filejp              *theme.ThemedResource
+	filehiding          *theme.ThemedResource
+	filejpg             *theme.ThemedResource
 	filelockone         *theme.ThemedResource
 	filelock            *theme.ThemedResource
 	filemusicone        *theme.ThemedResource
@@ -176,18 +176,18 @@ var (
 	listview            *theme.ThemedResource
 	lockingpicture      *theme.ThemedResource
 	lockingweb          *theme.ThemedResource
-	lo                  *theme.ThemedResource
+	log                 *theme.ThemedResource
 	maildownload        *theme.ThemedResource
 	mailedit            *theme.ThemedResource
 	mailopen            *theme.ThemedResource
 	mailpackage         *theme.ThemedResource
 	mailreview          *theme.ThemedResource
-	mailunpackin        *theme.ThemedResource
+	mailunpacking       *theme.ThemedResource
 	mail                *theme.ThemedResource
 	marketanalysis      *theme.ThemedResource
 	movingpicture       *theme.ThemedResource
 	newpicture          *theme.ThemedResource
-	newspaperfoldin     *theme.ThemedResource
+	newspaperfolding    *theme.ThemedResource
 	notebookandpen      *theme.ThemedResource
 	notebookone         *theme.ThemedResource
 	notebook            *theme.ThemedResource
@@ -291,7 +291,7 @@ func init() {
 	filedisplay = theme.NewThemedResource(resourceFileDisplaySvg)
 	filedoc = theme.NewThemedResource(resourceFileDocSvg)
 	fileeditingone = theme.NewThemedResource(resourceFileEditingOneSvg)
-	fileeditin = theme.NewThemedResource(resourceFileEditingSvg)
+	fileediting = theme.NewThemedResource(resourceFileEditingSvg)
 	fileexcel = theme.NewThemedResource(resourceFileExcelSvg)
 	filefailedone = theme.NewThemedResource(resourceFileFailedOneSvg)
 	filefailed = theme.NewThemedResource(resourceFileFailedSvg)
@@ -301,8 +301,8 @@ func init() {
 	filehashone = theme.NewThemedResource(resourceFileHashOneSvg)
 	filehash = theme.NewThemedResource(resourceFileHashSvg)
 	filehidingone = theme.NewThemedResource(resourceFileHidingOneSvg)
-	filehidin = theme.NewThemedResource(resourceFileHidingSvg)
-	filejp = theme.NewThemedResource(resourceFileJpgSvg)
+	filehiding = theme.NewThemedResource(resourceFileHidingSvg)
+	filejpg = theme.NewThemedResource(resourceFileJpgSvg)
 	filelockone = theme.NewThemedResource(resourceFileLockOneSvg)
 	filelock = theme.NewThemedResource(resourceFileLockSvg)
 	filemusicone = theme.NewThemedResource(resourceFileMusicOneSvg)
@@ -394,18 +394,18 @@ func init() {
 	listview = theme.NewThemedResource(resourceListViewSvg)
 	lockingpicture = theme.NewThemedResource(resourceLockingPictureSvg)
 	lockingweb = theme.NewThemedResource(resourceLockingWebSvg)
-	lo = theme.NewThemedResource(resourceLogSvg)
+	log = theme.NewThemedResource(resourceLogSvg)
 	maildownload = theme.NewThemedResource(resourceMailDownloadSvg)
 	mailedit = theme.NewThemedResource(resourceMailEditSvg)
 	mailopen = theme.NewThemedResource(resourceMailOpenSvg)
 	mailpackage = theme.NewThemedResource(resourceMailPackageSvg)
 	mailreview = theme.NewThemedResource(resourceMailReviewSvg)
-	mailunpackin = theme.NewThemedResource(resourceMailUnpackingSvg)
+	mailunpacking = theme.NewThemedResource(resourceMailUnpackingSvg)
 	mail = theme.NewThemedResource(resourceMailSvg)
 	marketanalysis = theme.NewThemedResource(resourceMarketAnalysisSvg)
 	movingpicture = theme.NewThemedResource(resourceMovingPictureSvg)
 	newpicture = theme.NewThemedResource(resourceNewPictureSvg)
-	newspaperfoldin = theme.NewThemedResource(resourceNewspaperFoldingSvg)
+	newspaperfolding = theme.NewThemedResource(resourceNewspaperFoldingSvg)
 	notebookandpen = theme.NewThemedResource(resourceNotebookAndPenSvg)
 	notebookone = theme.NewThemedResource(resourceNotebookOneSvg)
 	notebook = theme.NewThemedResource(resourceNotebookSvg)
@@ -768,9 +768,9 @@ func FileeditingoneIcon() fyne.Resource {
 	return fileeditingone
 }
 
-// FileeditinIcon returns Fileeditin icon resource
-func FileeditinIcon() fyne.Resource {
-	return fileeditin
+// FileeditingIcon returns Fileediting icon resource
+func FileeditingIcon() fyne.Resource {
+	return fileediting
 }
 
 // FileexcelIcon returns Fileexcel icon resource
@@ -818,14 +818,14 @@ func FilehidingoneIcon() fyne.Resource {
 	return filehidingone
 }
 
-// FilehidinIcon returns Filehidin icon resource
-func FilehidinIcon() fyne.Resource {
-	return filehidin
+// FilehidingIcon returns Filehiding icon resource
+func FilehidingIcon() fyne.Resource {
+	return filehiding
 }
 
-// FilejpIcon returns Filejp icon resource
-func FilejpIcon() fyne.Resource {
-	return filejp
+// FilejpgIcon returns Filejpg icon resource
+func FilejpgIcon() fyne.Resource {
+	return filejpg
 }
 
 // FilelockoneIcon returns Filelockone icon resource
@@ -1283,9 +1283,9 @@ func LockingwebIcon() fyne.Resource {
 	return lockingweb
 }
 
-// LoIcon returns Lo icon resource
-func LoIcon() fyne.Resource {
-	return lo
+// LogIcon returns Log icon resource
+func LogIcon() fyne.Resource {
+	return log
 }
 
 // MaildownloadIcon returns Maildownload icon resource
@@ -1313,9 +1313,9 @@ func MailreviewIcon() fyne.Resource {
 	return mailreview
 }
 
-// MailunpackinIcon returns Mailunpackin icon resource
-func MailunpackinIcon() fyne.Resource {
-	return mailunpackin
+// MailunpackingIcon returns Mailunpacking icon resource
+func MailunpackingIcon() fyne.Resource {
+	return mailunpacking
 }
 
 // MailIcon returns Mail icon resource
@@ -1338,9 +1338,9 @@ func NewpictureIcon() fyne.Resource {
 	return newpicture
 }
 
-// NewspaperfoldinIcon returns Newspaperfoldin icon resource
-func NewspaperfoldinIcon() fyne.Resource {
-	return newspaperfoldin
+// NewspaperfoldingIcon returns Newspaperfolding icon resource
+func NewspaperfoldingIcon() fyne.Resource {
+	return newspaperfolding
 }
 
 // NotebookandpenIcon returns Notebookandpen icon resource

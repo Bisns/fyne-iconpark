@@ -70,7 +70,7 @@ var (
 	goahead               *theme.ThemedResource
 	goend                 *theme.ThemedResource
 	gostart               *theme.ThemedResource
-	incomin               *theme.ThemedResource
+	incoming              *theme.ThemedResource
 	install               *theme.ThemedResource
 	invertleft            *theme.ThemedResource
 	invertright           *theme.ThemedResource
@@ -94,11 +94,11 @@ var (
 	newefferent           *theme.ThemedResource
 	offscreenone          *theme.ThemedResource
 	offscreentwo          *theme.ThemedResource
-	outgoin               *theme.ThemedResource
+	outgoing              *theme.ThemedResource
 	playcycle             *theme.ThemedResource
 	playonce              *theme.ThemedResource
 	recyclingpool         *theme.ThemedResource
-	recyclin              *theme.ThemedResource
+	recycling             *theme.ThemedResource
 	redo                  *theme.ThemedResource
 	reject                *theme.ThemedResource
 	rightc                *theme.ThemedResource
@@ -210,7 +210,7 @@ func init() {
 	goahead = theme.NewThemedResource(resourceGoAheadSvg)
 	goend = theme.NewThemedResource(resourceGoEndSvg)
 	gostart = theme.NewThemedResource(resourceGoStartSvg)
-	incomin = theme.NewThemedResource(resourceIncomingSvg)
+	incoming = theme.NewThemedResource(resourceIncomingSvg)
 	install = theme.NewThemedResource(resourceInstallSvg)
 	invertleft = theme.NewThemedResource(resourceInvertLeftSvg)
 	invertright = theme.NewThemedResource(resourceInvertRightSvg)
@@ -234,11 +234,11 @@ func init() {
 	newefferent = theme.NewThemedResource(resourceNewEfferentSvg)
 	offscreenone = theme.NewThemedResource(resourceOffScreenOneSvg)
 	offscreentwo = theme.NewThemedResource(resourceOffScreenTwoSvg)
-	outgoin = theme.NewThemedResource(resourceOutgoingSvg)
+	outgoing = theme.NewThemedResource(resourceOutgoingSvg)
 	playcycle = theme.NewThemedResource(resourcePlayCycleSvg)
 	playonce = theme.NewThemedResource(resourcePlayOnceSvg)
 	recyclingpool = theme.NewThemedResource(resourceRecyclingPoolSvg)
-	recyclin = theme.NewThemedResource(resourceRecyclingSvg)
+	recycling = theme.NewThemedResource(resourceRecyclingSvg)
 	redo = theme.NewThemedResource(resourceRedoSvg)
 	reject = theme.NewThemedResource(resourceRejectSvg)
 	rightc = theme.NewThemedResource(resourceRightCSvg)
@@ -597,9 +597,9 @@ func GostartIcon() fyne.Resource {
 	return gostart
 }
 
-// IncominIcon returns Incomin icon resource
-func IncominIcon() fyne.Resource {
-	return incomin
+// IncomingIcon returns Incoming icon resource
+func IncomingIcon() fyne.Resource {
+	return incoming
 }
 
 // InstallIcon returns Install icon resource
@@ -717,9 +717,9 @@ func OffscreentwoIcon() fyne.Resource {
 	return offscreentwo
 }
 
-// OutgoinIcon returns Outgoin icon resource
-func OutgoinIcon() fyne.Resource {
-	return outgoin
+// OutgoingIcon returns Outgoing icon resource
+func OutgoingIcon() fyne.Resource {
+	return outgoing
 }
 
 // PlaycycleIcon returns Playcycle icon resource
@@ -737,9 +737,9 @@ func RecyclingpoolIcon() fyne.Resource {
 	return recyclingpool
 }
 
-// RecyclinIcon returns Recyclin icon resource
-func RecyclinIcon() fyne.Resource {
-	return recyclin
+// RecyclingIcon returns Recycling icon resource
+func RecyclingIcon() fyne.Resource {
+	return recycling
 }
 
 // RedoIcon returns Redo icon resource

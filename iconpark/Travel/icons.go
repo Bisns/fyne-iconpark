@@ -28,11 +28,11 @@ var (
 	consignment       *theme.ThemedResource
 	cruise            *theme.ThemedResource
 	descend           *theme.ThemedResource
-	divin             *theme.ThemedResource
+	diving            *theme.ThemedResource
 	earth             *theme.ThemedResource
 	enquire           *theme.ThemedResource
-	fishin            *theme.ThemedResource
-	fla               *theme.ThemedResource
+	fishing           *theme.ThemedResource
+	flag              *theme.ThemedResource
 	flightairflow     *theme.ThemedResource
 	flightsafety      *theme.ThemedResource
 	frigate           *theme.ThemedResource
@@ -46,7 +46,7 @@ var (
 	inflight          *theme.ThemedResource
 	international     *theme.ThemedResource
 	journey           *theme.ThemedResource
-	landin            *theme.ThemedResource
+	landing           *theme.ThemedResource
 	landscape         *theme.ThemedResource
 	localpin          *theme.ThemedResource
 	localtwo          *theme.ThemedResource
@@ -63,15 +63,15 @@ var (
 	mounted           *theme.ThemedResource
 	navigation        *theme.ThemedResource
 	parachute         *theme.ThemedResource
-	parkin            *theme.ThemedResource
+	parking           *theme.ThemedResource
 	passportone       *theme.ThemedResource
 	pennant           *theme.ThemedResource
 	photograph        *theme.ThemedResource
 	planet            *theme.ThemedResource
 	pyramidone        *theme.ThemedResource
 	railway           *theme.ThemedResource
-	repositionin      *theme.ThemedResource
-	restin            *theme.ThemedResource
+	repositioning     *theme.ThemedResource
+	resting           *theme.ThemedResource
 	ridingone         *theme.ThemedResource
 	roadcone          *theme.ThemedResource
 	roadone           *theme.ThemedResource
@@ -81,7 +81,7 @@ var (
 	rocket            *theme.ThemedResource
 	roundtrip         *theme.ThemedResource
 	sailboatone       *theme.ThemedResource
-	sailin            *theme.ThemedResource
+	sailing           *theme.ThemedResource
 	sandals           *theme.ThemedResource
 	selfie            *theme.ThemedResource
 	setoff            *theme.ThemedResource
@@ -132,11 +132,11 @@ func init() {
 	consignment = theme.NewThemedResource(resourceConsignmentSvg)
 	cruise = theme.NewThemedResource(resourceCruiseSvg)
 	descend = theme.NewThemedResource(resourceDescendSvg)
-	divin = theme.NewThemedResource(resourceDivingSvg)
+	diving = theme.NewThemedResource(resourceDivingSvg)
 	earth = theme.NewThemedResource(resourceEarthSvg)
 	enquire = theme.NewThemedResource(resourceEnquireSvg)
-	fishin = theme.NewThemedResource(resourceFishingSvg)
-	fla = theme.NewThemedResource(resourceFlagSvg)
+	fishing = theme.NewThemedResource(resourceFishingSvg)
+	flag = theme.NewThemedResource(resourceFlagSvg)
 	flightairflow = theme.NewThemedResource(resourceFlightAirflowSvg)
 	flightsafety = theme.NewThemedResource(resourceFlightSafetySvg)
 	frigate = theme.NewThemedResource(resourceFrigateSvg)
@@ -150,7 +150,7 @@ func init() {
 	inflight = theme.NewThemedResource(resourceInFlightSvg)
 	international = theme.NewThemedResource(resourceInternationalSvg)
 	journey = theme.NewThemedResource(resourceJourneySvg)
-	landin = theme.NewThemedResource(resourceLandingSvg)
+	landing = theme.NewThemedResource(resourceLandingSvg)
 	landscape = theme.NewThemedResource(resourceLandscapeSvg)
 	localpin = theme.NewThemedResource(resourceLocalPinSvg)
 	localtwo = theme.NewThemedResource(resourceLocalTwoSvg)
@@ -167,15 +167,15 @@ func init() {
 	mounted = theme.NewThemedResource(resourceMountedSvg)
 	navigation = theme.NewThemedResource(resourceNavigationSvg)
 	parachute = theme.NewThemedResource(resourceParachuteSvg)
-	parkin = theme.NewThemedResource(resourceParkingSvg)
+	parking = theme.NewThemedResource(resourceParkingSvg)
 	passportone = theme.NewThemedResource(resourcePassportOneSvg)
 	pennant = theme.NewThemedResource(resourcePennantSvg)
 	photograph = theme.NewThemedResource(resourcePhotographSvg)
 	planet = theme.NewThemedResource(resourcePlanetSvg)
 	pyramidone = theme.NewThemedResource(resourcePyramidOneSvg)
 	railway = theme.NewThemedResource(resourceRailwaySvg)
-	repositionin = theme.NewThemedResource(resourceRepositioningSvg)
-	restin = theme.NewThemedResource(resourceRestingSvg)
+	repositioning = theme.NewThemedResource(resourceRepositioningSvg)
+	resting = theme.NewThemedResource(resourceRestingSvg)
 	ridingone = theme.NewThemedResource(resourceRidingOneSvg)
 	roadcone = theme.NewThemedResource(resourceRoadConeSvg)
 	roadone = theme.NewThemedResource(resourceRoadOneSvg)
@@ -185,7 +185,7 @@ func init() {
 	rocket = theme.NewThemedResource(resourceRocketSvg)
 	roundtrip = theme.NewThemedResource(resourceRoundTripSvg)
 	sailboatone = theme.NewThemedResource(resourceSailboatOneSvg)
-	sailin = theme.NewThemedResource(resourceSailingSvg)
+	sailing = theme.NewThemedResource(resourceSailingSvg)
 	sandals = theme.NewThemedResource(resourceSandalsSvg)
 	selfie = theme.NewThemedResource(resourceSelfieSvg)
 	setoff = theme.NewThemedResource(resourceSetOffSvg)
@@ -315,9 +315,9 @@ func DescendIcon() fyne.Resource {
 	return descend
 }
 
-// DivinIcon returns Divin icon resource
-func DivinIcon() fyne.Resource {
-	return divin
+// DivingIcon returns Diving icon resource
+func DivingIcon() fyne.Resource {
+	return diving
 }
 
 // EarthIcon returns Earth icon resource
@@ -330,14 +330,14 @@ func EnquireIcon() fyne.Resource {
 	return enquire
 }
 
-// FishinIcon returns Fishin icon resource
-func FishinIcon() fyne.Resource {
-	return fishin
+// FishingIcon returns Fishing icon resource
+func FishingIcon() fyne.Resource {
+	return fishing
 }
 
-// FlaIcon returns Fla icon resource
-func FlaIcon() fyne.Resource {
-	return fla
+// FlagIcon returns Flag icon resource
+func FlagIcon() fyne.Resource {
+	return flag
 }
 
 // FlightairflowIcon returns Flightairflow icon resource
@@ -405,9 +405,9 @@ func JourneyIcon() fyne.Resource {
 	return journey
 }
 
-// LandinIcon returns Landin icon resource
-func LandinIcon() fyne.Resource {
-	return landin
+// LandingIcon returns Landing icon resource
+func LandingIcon() fyne.Resource {
+	return landing
 }
 
 // LandscapeIcon returns Landscape icon resource
@@ -490,9 +490,9 @@ func ParachuteIcon() fyne.Resource {
 	return parachute
 }
 
-// ParkinIcon returns Parkin icon resource
-func ParkinIcon() fyne.Resource {
-	return parkin
+// ParkingIcon returns Parking icon resource
+func ParkingIcon() fyne.Resource {
+	return parking
 }
 
 // PassportoneIcon returns Passportone icon resource
@@ -525,14 +525,14 @@ func RailwayIcon() fyne.Resource {
 	return railway
 }
 
-// RepositioninIcon returns Repositionin icon resource
-func RepositioninIcon() fyne.Resource {
-	return repositionin
+// RepositioningIcon returns Repositioning icon resource
+func RepositioningIcon() fyne.Resource {
+	return repositioning
 }
 
-// RestinIcon returns Restin icon resource
-func RestinIcon() fyne.Resource {
-	return restin
+// RestingIcon returns Resting icon resource
+func RestingIcon() fyne.Resource {
+	return resting
 }
 
 // RidingoneIcon returns Ridingone icon resource
@@ -580,9 +580,9 @@ func SailboatoneIcon() fyne.Resource {
 	return sailboatone
 }
 
-// SailinIcon returns Sailin icon resource
-func SailinIcon() fyne.Resource {
-	return sailin
+// SailingIcon returns Sailing icon resource
+func SailingIcon() fyne.Resource {
+	return sailing
 }
 
 // SandalsIcon returns Sandals icon resource

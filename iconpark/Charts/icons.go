@@ -26,7 +26,7 @@ var (
 	chartline         *theme.ThemedResource
 	chartpie          *theme.ThemedResource
 	chartproportion   *theme.ThemedResource
-	chartrin          *theme.ThemedResource
+	chartring         *theme.ThemedResource
 	chartscatter      *theme.ThemedResource
 	chartstock        *theme.ThemedResource
 	creationdatesort  *theme.ThemedResource
@@ -66,7 +66,7 @@ var (
 	positivedynamics  *theme.ThemedResource
 	radarchart        *theme.ThemedResource
 	rankinglist       *theme.ThemedResource
-	rankin            *theme.ThemedResource
+	ranking           *theme.ThemedResource
 	recentviewssort   *theme.ThemedResource
 	sinusoid          *theme.ThemedResource
 	slidetwo          *theme.ThemedResource
@@ -97,7 +97,7 @@ func init() {
 	chartline = theme.NewThemedResource(resourceChartLineSvg)
 	chartpie = theme.NewThemedResource(resourceChartPieSvg)
 	chartproportion = theme.NewThemedResource(resourceChartProportionSvg)
-	chartrin = theme.NewThemedResource(resourceChartRingSvg)
+	chartring = theme.NewThemedResource(resourceChartRingSvg)
 	chartscatter = theme.NewThemedResource(resourceChartScatterSvg)
 	chartstock = theme.NewThemedResource(resourceChartStockSvg)
 	creationdatesort = theme.NewThemedResource(resourceCreationDateSortSvg)
@@ -137,7 +137,7 @@ func init() {
 	positivedynamics = theme.NewThemedResource(resourcePositiveDynamicsSvg)
 	radarchart = theme.NewThemedResource(resourceRadarChartSvg)
 	rankinglist = theme.NewThemedResource(resourceRankingListSvg)
-	rankin = theme.NewThemedResource(resourceRankingSvg)
+	ranking = theme.NewThemedResource(resourceRankingSvg)
 	recentviewssort = theme.NewThemedResource(resourceRecentViewsSortSvg)
 	sinusoid = theme.NewThemedResource(resourceSinusoidSvg)
 	slidetwo = theme.NewThemedResource(resourceSlideTwoSvg)
@@ -239,9 +239,9 @@ func ChartproportionIcon() fyne.Resource {
 	return chartproportion
 }
 
-// ChartrinIcon returns Chartrin icon resource
-func ChartrinIcon() fyne.Resource {
-	return chartrin
+// ChartringIcon returns Chartring icon resource
+func ChartringIcon() fyne.Resource {
+	return chartring
 }
 
 // ChartscatterIcon returns Chartscatter icon resource
@@ -439,9 +439,9 @@ func RankinglistIcon() fyne.Resource {
 	return rankinglist
 }
 
-// RankinIcon returns Rankin icon resource
-func RankinIcon() fyne.Resource {
-	return rankin
+// RankingIcon returns Ranking icon resource
+func RankingIcon() fyne.Resource {
+	return ranking
 }
 
 // RecentviewssortIcon returns Recentviewssort icon resource

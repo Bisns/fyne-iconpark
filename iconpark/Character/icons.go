@@ -15,7 +15,7 @@ var (
 	attention   *theme.ThemedResource
 	bigx        *theme.ThemedResource
 	bitcoin     *theme.ThemedResource
-	cemarkin    *theme.ThemedResource
+	cemarking   *theme.ThemedResource
 	checkone    *theme.ThemedResource
 	checksmall  *theme.ThemedResource
 	check       *theme.ThemedResource
@@ -51,7 +51,7 @@ func init() {
 	attention = theme.NewThemedResource(resourceAttentionSvg)
 	bigx = theme.NewThemedResource(resourceBigXSvg)
 	bitcoin = theme.NewThemedResource(resourceBitcoinSvg)
-	cemarkin = theme.NewThemedResource(resourceCeMarkingSvg)
+	cemarking = theme.NewThemedResource(resourceCeMarkingSvg)
 	checkone = theme.NewThemedResource(resourceCheckOneSvg)
 	checksmall = theme.NewThemedResource(resourceCheckSmallSvg)
 	check = theme.NewThemedResource(resourceCheckSvg)
@@ -114,9 +114,9 @@ func BitcoinIcon() fyne.Resource {
 	return bitcoin
 }
 
-// CemarkinIcon returns Cemarkin icon resource
-func CemarkinIcon() fyne.Resource {
-	return cemarkin
+// CemarkingIcon returns Cemarking icon resource
+func CemarkingIcon() fyne.Resource {
+	return cemarking
 }
 
 // CheckoneIcon returns Checkone icon resource

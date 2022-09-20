@@ -46,7 +46,7 @@ var (
 	rightbranchtwo       *theme.ThemedResource
 	rightbranch          *theme.ThemedResource
 	ringone              *theme.ThemedResource
-	rin                  *theme.ThemedResource
+	ring                 *theme.ThemedResource
 	sturndown            *theme.ThemedResource
 	sturnleft            *theme.ThemedResource
 	sturnright           *theme.ThemedResource
@@ -101,7 +101,7 @@ func init() {
 	rightbranchtwo = theme.NewThemedResource(resourceRightBranchTwoSvg)
 	rightbranch = theme.NewThemedResource(resourceRightBranchSvg)
 	ringone = theme.NewThemedResource(resourceRingOneSvg)
-	rin = theme.NewThemedResource(resourceRingSvg)
+	ring = theme.NewThemedResource(resourceRingSvg)
 	sturndown = theme.NewThemedResource(resourceSTurnDownSvg)
 	sturnleft = theme.NewThemedResource(resourceSTurnLeftSvg)
 	sturnright = theme.NewThemedResource(resourceSTurnRightSvg)
@@ -307,9 +307,9 @@ func RingoneIcon() fyne.Resource {
 	return ringone
 }
 
-// RinIcon returns Rin icon resource
-func RinIcon() fyne.Resource {
-	return rin
+// RingIcon returns Ring icon resource
+func RingIcon() fyne.Resource {
+	return ring
 }
 
 // SturndownIcon returns Sturndown icon resource

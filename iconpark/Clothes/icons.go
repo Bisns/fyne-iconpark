@@ -8,78 +8,78 @@ import (
 )
 
 var (
-	acane               *theme.ThemedResource
-	bachelorcapone      *theme.ThemedResource
-	bachelorcaptwo      *theme.ThemedResource
-	bachelorcap         *theme.ThemedResource
-	backpack            *theme.ThemedResource
-	baseballcap         *theme.ThemedResource
-	basketballclothes   *theme.ThemedResource
-	belt                *theme.ThemedResource
-	boots               *theme.ThemedResource
-	bow                 *theme.ThemedResource
-	briefcase           *theme.ThemedResource
-	chefhat             *theme.ThemedResource
-	childrencap         *theme.ThemedResource
-	clothesbriefs       *theme.ThemedResource
-	clothescardigan     *theme.ThemedResource
-	clothescrewneck     *theme.ThemedResource
-	clothesdiapers      *theme.ThemedResource
-	clothesglovestwo    *theme.ThemedResource
-	clothesgloves       *theme.ThemedResource
-	clotheshoodie       *theme.ThemedResource
-	clothespantsshort   *theme.ThemedResource
-	clothespantssweat   *theme.ThemedResource
-	clothespants        *theme.ThemedResource
-	clothesshortsleeve  *theme.ThemedResource
-	clothesskates       *theme.ThemedResource
-	clothessuit         *theme.ThemedResource
-	clothessweater      *theme.ThemedResource
-	clothesturtleneck   *theme.ThemedResource
-	clotheswindbreaker  *theme.ThemedResource
-	coathanger          *theme.ThemedResource
-	commuterba          *theme.ThemedResource
-	crownthree          *theme.ThemedResource
-	diamondnecklace     *theme.ThemedResource
-	diamondrin          *theme.ThemedResource
-	diamonds            *theme.ThemedResource
-	diapersone          *theme.ThemedResource
-	fulldresslonguette  *theme.ThemedResource
-	glassesone          *theme.ThemedResource
-	glasses             *theme.ThemedResource
-	handba              *theme.ThemedResource
-	hanfuchinesestyle   *theme.ThemedResource
-	hangerone           *theme.ThemedResource
-	hat                 *theme.ThemedResource
-	headwear            *theme.ThemedResource
-	highheeledshoes     *theme.ThemedResource
-	holysword           *theme.ThemedResource
-	magichat            *theme.ThemedResource
-	menjacket           *theme.ThemedResource
-	necktie             *theme.ThemedResource
-	panties             *theme.ThemedResource
-	perfume             *theme.ThemedResource
-	retroba             *theme.ThemedResource
-	shortskirt          *theme.ThemedResource
-	shorts              *theme.ThemedResource
-	skates              *theme.ThemedResource
-	slippersone         *theme.ThemedResource
-	slippers            *theme.ThemedResource
-	socks               *theme.ThemedResource
-	sorcererhat         *theme.ThemedResource
-	strawhat            *theme.ThemedResource
-	sunhat              *theme.ThemedResource
-	sweater             *theme.ThemedResource
-	swimsuit            *theme.ThemedResource
-	tshirt              *theme.ThemedResource
-	thesingleshoulderba *theme.ThemedResource
-	theme               *theme.ThemedResource
-	threedglasses       *theme.ThemedResource
-	trousersbellbottoms *theme.ThemedResource
-	trunk               *theme.ThemedResource
-	vest                *theme.ThemedResource
-	womencoat           *theme.ThemedResource
-	woolenhat           *theme.ThemedResource
+	acane                *theme.ThemedResource
+	bachelorcapone       *theme.ThemedResource
+	bachelorcaptwo       *theme.ThemedResource
+	bachelorcap          *theme.ThemedResource
+	backpack             *theme.ThemedResource
+	baseballcap          *theme.ThemedResource
+	basketballclothes    *theme.ThemedResource
+	belt                 *theme.ThemedResource
+	boots                *theme.ThemedResource
+	bow                  *theme.ThemedResource
+	briefcase            *theme.ThemedResource
+	chefhat              *theme.ThemedResource
+	childrencap          *theme.ThemedResource
+	clothesbriefs        *theme.ThemedResource
+	clothescardigan      *theme.ThemedResource
+	clothescrewneck      *theme.ThemedResource
+	clothesdiapers       *theme.ThemedResource
+	clothesglovestwo     *theme.ThemedResource
+	clothesgloves        *theme.ThemedResource
+	clotheshoodie        *theme.ThemedResource
+	clothespantsshort    *theme.ThemedResource
+	clothespantssweat    *theme.ThemedResource
+	clothespants         *theme.ThemedResource
+	clothesshortsleeve   *theme.ThemedResource
+	clothesskates        *theme.ThemedResource
+	clothessuit          *theme.ThemedResource
+	clothessweater       *theme.ThemedResource
+	clothesturtleneck    *theme.ThemedResource
+	clotheswindbreaker   *theme.ThemedResource
+	coathanger           *theme.ThemedResource
+	commuterbag          *theme.ThemedResource
+	crownthree           *theme.ThemedResource
+	diamondnecklace      *theme.ThemedResource
+	diamondring          *theme.ThemedResource
+	diamonds             *theme.ThemedResource
+	diapersone           *theme.ThemedResource
+	fulldresslonguette   *theme.ThemedResource
+	glassesone           *theme.ThemedResource
+	glasses              *theme.ThemedResource
+	handbag              *theme.ThemedResource
+	hanfuchinesestyle    *theme.ThemedResource
+	hangerone            *theme.ThemedResource
+	hat                  *theme.ThemedResource
+	headwear             *theme.ThemedResource
+	highheeledshoes      *theme.ThemedResource
+	holysword            *theme.ThemedResource
+	magichat             *theme.ThemedResource
+	menjacket            *theme.ThemedResource
+	necktie              *theme.ThemedResource
+	panties              *theme.ThemedResource
+	perfume              *theme.ThemedResource
+	retrobag             *theme.ThemedResource
+	shortskirt           *theme.ThemedResource
+	shorts               *theme.ThemedResource
+	skates               *theme.ThemedResource
+	slippersone          *theme.ThemedResource
+	slippers             *theme.ThemedResource
+	socks                *theme.ThemedResource
+	sorcererhat          *theme.ThemedResource
+	strawhat             *theme.ThemedResource
+	sunhat               *theme.ThemedResource
+	sweater              *theme.ThemedResource
+	swimsuit             *theme.ThemedResource
+	tshirt               *theme.ThemedResource
+	thesingleshoulderbag *theme.ThemedResource
+	theme                *theme.ThemedResource
+	threedglasses        *theme.ThemedResource
+	trousersbellbottoms  *theme.ThemedResource
+	trunk                *theme.ThemedResource
+	vest                 *theme.ThemedResource
+	womencoat            *theme.ThemedResource
+	woolenhat            *theme.ThemedResource
 )
 
 func init() {
@@ -113,16 +113,16 @@ func init() {
 	clothesturtleneck = theme.NewThemedResource(resourceClothesTurtleneckSvg)
 	clotheswindbreaker = theme.NewThemedResource(resourceClothesWindbreakerSvg)
 	coathanger = theme.NewThemedResource(resourceCoatHangerSvg)
-	commuterba = theme.NewThemedResource(resourceCommuterBagSvg)
+	commuterbag = theme.NewThemedResource(resourceCommuterBagSvg)
 	crownthree = theme.NewThemedResource(resourceCrownThreeSvg)
 	diamondnecklace = theme.NewThemedResource(resourceDiamondNecklaceSvg)
-	diamondrin = theme.NewThemedResource(resourceDiamondRingSvg)
+	diamondring = theme.NewThemedResource(resourceDiamondRingSvg)
 	diamonds = theme.NewThemedResource(resourceDiamondsSvg)
 	diapersone = theme.NewThemedResource(resourceDiapersOneSvg)
 	fulldresslonguette = theme.NewThemedResource(resourceFullDressLonguetteSvg)
 	glassesone = theme.NewThemedResource(resourceGlassesOneSvg)
 	glasses = theme.NewThemedResource(resourceGlassesSvg)
-	handba = theme.NewThemedResource(resourceHandbagSvg)
+	handbag = theme.NewThemedResource(resourceHandbagSvg)
 	hanfuchinesestyle = theme.NewThemedResource(resourceHanfuChineseStyleSvg)
 	hangerone = theme.NewThemedResource(resourceHangerOneSvg)
 	hat = theme.NewThemedResource(resourceHatSvg)
@@ -134,7 +134,7 @@ func init() {
 	necktie = theme.NewThemedResource(resourceNecktieSvg)
 	panties = theme.NewThemedResource(resourcePantiesSvg)
 	perfume = theme.NewThemedResource(resourcePerfumeSvg)
-	retroba = theme.NewThemedResource(resourceRetroBagSvg)
+	retrobag = theme.NewThemedResource(resourceRetroBagSvg)
 	shortskirt = theme.NewThemedResource(resourceShortSkirtSvg)
 	shorts = theme.NewThemedResource(resourceShortsSvg)
 	skates = theme.NewThemedResource(resourceSkatesSvg)
@@ -147,7 +147,7 @@ func init() {
 	sweater = theme.NewThemedResource(resourceSweaterSvg)
 	swimsuit = theme.NewThemedResource(resourceSwimsuitSvg)
 	tshirt = theme.NewThemedResource(resourceTShirtSvg)
-	thesingleshoulderba = theme.NewThemedResource(resourceTheSingleShoulderBagSvg)
+	thesingleshoulderbag = theme.NewThemedResource(resourceTheSingleShoulderBagSvg)
 	theme = theme.NewThemedResource(resourceThemeSvg)
 	threedglasses = theme.NewThemedResource(resourceThreeDGlassesSvg)
 	trousersbellbottoms = theme.NewThemedResource(resourceTrousersBellBottomsSvg)
@@ -307,9 +307,9 @@ func CoathangerIcon() fyne.Resource {
 	return coathanger
 }
 
-// CommuterbaIcon returns Commuterba icon resource
-func CommuterbaIcon() fyne.Resource {
-	return commuterba
+// CommuterbagIcon returns Commuterbag icon resource
+func CommuterbagIcon() fyne.Resource {
+	return commuterbag
 }
 
 // CrownthreeIcon returns Crownthree icon resource
@@ -322,9 +322,9 @@ func DiamondnecklaceIcon() fyne.Resource {
 	return diamondnecklace
 }
 
-// DiamondrinIcon returns Diamondrin icon resource
-func DiamondrinIcon() fyne.Resource {
-	return diamondrin
+// DiamondringIcon returns Diamondring icon resource
+func DiamondringIcon() fyne.Resource {
+	return diamondring
 }
 
 // DiamondsIcon returns Diamonds icon resource
@@ -352,9 +352,9 @@ func GlassesIcon() fyne.Resource {
 	return glasses
 }
 
-// HandbaIcon returns Handba icon resource
-func HandbaIcon() fyne.Resource {
-	return handba
+// HandbagIcon returns Handbag icon resource
+func HandbagIcon() fyne.Resource {
+	return handbag
 }
 
 // HanfuchinesestyleIcon returns Hanfuchinesestyle icon resource
@@ -412,9 +412,9 @@ func PerfumeIcon() fyne.Resource {
 	return perfume
 }
 
-// RetrobaIcon returns Retroba icon resource
-func RetrobaIcon() fyne.Resource {
-	return retroba
+// RetrobagIcon returns Retrobag icon resource
+func RetrobagIcon() fyne.Resource {
+	return retrobag
 }
 
 // ShortskirtIcon returns Shortskirt icon resource
@@ -477,9 +477,9 @@ func TshirtIcon() fyne.Resource {
 	return tshirt
 }
 
-// ThesingleshoulderbaIcon returns Thesingleshoulderba icon resource
-func ThesingleshoulderbaIcon() fyne.Resource {
-	return thesingleshoulderba
+// ThesingleshoulderbagIcon returns Thesingleshoulderbag icon resource
+func ThesingleshoulderbagIcon() fyne.Resource {
+	return thesingleshoulderbag
 }
 
 // ThemeIcon returns Theme icon resource

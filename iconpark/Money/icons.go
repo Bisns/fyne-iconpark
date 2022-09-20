@@ -35,10 +35,10 @@ var (
 	finance               *theme.ThemedResource
 	financingone          *theme.ThemedResource
 	financingtwo          *theme.ThemedResource
-	financin              *theme.ThemedResource
+	financing             *theme.ThemedResource
 	flashpayment          *theme.ThemedResource
 	funds                 *theme.ThemedResource
-	giftba                *theme.ThemedResource
+	giftbag               *theme.ThemedResource
 	giftbox               *theme.ThemedResource
 	gift                  *theme.ThemedResource
 	heavymetal            *theme.ThemedResource
@@ -48,7 +48,7 @@ var (
 	insertcard            *theme.ThemedResource
 	iosfacerecognition    *theme.ThemedResource
 	ipo                   *theme.ThemedResource
-	mallba                *theme.ThemedResource
+	mallbag               *theme.ThemedResource
 	medicationtime        *theme.ThemedResource
 	openanaccount         *theme.ThemedResource
 	optional              *theme.ThemedResource
@@ -61,14 +61,14 @@ var (
 	redenvelopes          *theme.ThemedResource
 	scancode              *theme.ThemedResource
 	shoppingbagone        *theme.ThemedResource
-	shoppingba            *theme.ThemedResource
+	shoppingbag           *theme.ThemedResource
 	shoppingcartadd       *theme.ThemedResource
 	shoppingcartdel       *theme.ThemedResource
 	shoppingcartone       *theme.ThemedResource
 	shoppingcarttwo       *theme.ThemedResource
 	shoppingcart          *theme.ThemedResource
-	shoppin               *theme.ThemedResource
-	shoulderba            *theme.ThemedResource
+	shopping              *theme.ThemedResource
+	shoulderbag           *theme.ThemedResource
 	stockmarket           *theme.ThemedResource
 	swipe                 *theme.ThemedResource
 	transactionorder      *theme.ThemedResource
@@ -118,10 +118,10 @@ func init() {
 	finance = theme.NewThemedResource(resourceFinanceSvg)
 	financingone = theme.NewThemedResource(resourceFinancingOneSvg)
 	financingtwo = theme.NewThemedResource(resourceFinancingTwoSvg)
-	financin = theme.NewThemedResource(resourceFinancingSvg)
+	financing = theme.NewThemedResource(resourceFinancingSvg)
 	flashpayment = theme.NewThemedResource(resourceFlashPaymentSvg)
 	funds = theme.NewThemedResource(resourceFundsSvg)
-	giftba = theme.NewThemedResource(resourceGiftBagSvg)
+	giftbag = theme.NewThemedResource(resourceGiftBagSvg)
 	giftbox = theme.NewThemedResource(resourceGiftBoxSvg)
 	gift = theme.NewThemedResource(resourceGiftSvg)
 	heavymetal = theme.NewThemedResource(resourceHeavyMetalSvg)
@@ -131,7 +131,7 @@ func init() {
 	insertcard = theme.NewThemedResource(resourceInsertCardSvg)
 	iosfacerecognition = theme.NewThemedResource(resourceIosFaceRecognitionSvg)
 	ipo = theme.NewThemedResource(resourceIpoSvg)
-	mallba = theme.NewThemedResource(resourceMallBagSvg)
+	mallbag = theme.NewThemedResource(resourceMallBagSvg)
 	medicationtime = theme.NewThemedResource(resourceMedicationTimeSvg)
 	openanaccount = theme.NewThemedResource(resourceOpenAnAccountSvg)
 	optional = theme.NewThemedResource(resourceOptionalSvg)
@@ -144,14 +144,14 @@ func init() {
 	redenvelopes = theme.NewThemedResource(resourceRedEnvelopesSvg)
 	scancode = theme.NewThemedResource(resourceScanCodeSvg)
 	shoppingbagone = theme.NewThemedResource(resourceShoppingBagOneSvg)
-	shoppingba = theme.NewThemedResource(resourceShoppingBagSvg)
+	shoppingbag = theme.NewThemedResource(resourceShoppingBagSvg)
 	shoppingcartadd = theme.NewThemedResource(resourceShoppingCartAddSvg)
 	shoppingcartdel = theme.NewThemedResource(resourceShoppingCartDelSvg)
 	shoppingcartone = theme.NewThemedResource(resourceShoppingCartOneSvg)
 	shoppingcarttwo = theme.NewThemedResource(resourceShoppingCartTwoSvg)
 	shoppingcart = theme.NewThemedResource(resourceShoppingCartSvg)
-	shoppin = theme.NewThemedResource(resourceShoppingSvg)
-	shoulderba = theme.NewThemedResource(resourceShoulderBagSvg)
+	shopping = theme.NewThemedResource(resourceShoppingSvg)
+	shoulderbag = theme.NewThemedResource(resourceShoulderBagSvg)
 	stockmarket = theme.NewThemedResource(resourceStockMarketSvg)
 	swipe = theme.NewThemedResource(resourceSwipeSvg)
 	transactionorder = theme.NewThemedResource(resourceTransactionOrderSvg)
@@ -308,9 +308,9 @@ func FinancingtwoIcon() fyne.Resource {
 	return financingtwo
 }
 
-// FinancinIcon returns Financin icon resource
-func FinancinIcon() fyne.Resource {
-	return financin
+// FinancingIcon returns Financing icon resource
+func FinancingIcon() fyne.Resource {
+	return financing
 }
 
 // FlashpaymentIcon returns Flashpayment icon resource
@@ -323,9 +323,9 @@ func FundsIcon() fyne.Resource {
 	return funds
 }
 
-// GiftbaIcon returns Giftba icon resource
-func GiftbaIcon() fyne.Resource {
-	return giftba
+// GiftbagIcon returns Giftbag icon resource
+func GiftbagIcon() fyne.Resource {
+	return giftbag
 }
 
 // GiftboxIcon returns Giftbox icon resource
@@ -373,9 +373,9 @@ func IpoIcon() fyne.Resource {
 	return ipo
 }
 
-// MallbaIcon returns Mallba icon resource
-func MallbaIcon() fyne.Resource {
-	return mallba
+// MallbagIcon returns Mallbag icon resource
+func MallbagIcon() fyne.Resource {
+	return mallbag
 }
 
 // MedicationtimeIcon returns Medicationtime icon resource
@@ -438,9 +438,9 @@ func ShoppingbagoneIcon() fyne.Resource {
 	return shoppingbagone
 }
 
-// ShoppingbaIcon returns Shoppingba icon resource
-func ShoppingbaIcon() fyne.Resource {
-	return shoppingba
+// ShoppingbagIcon returns Shoppingbag icon resource
+func ShoppingbagIcon() fyne.Resource {
+	return shoppingbag
 }
 
 // ShoppingcartaddIcon returns Shoppingcartadd icon resource
@@ -468,14 +468,14 @@ func ShoppingcartIcon() fyne.Resource {
 	return shoppingcart
 }
 
-// ShoppinIcon returns Shoppin icon resource
-func ShoppinIcon() fyne.Resource {
-	return shoppin
+// ShoppingIcon returns Shopping icon resource
+func ShoppingIcon() fyne.Resource {
+	return shopping
 }
 
-// ShoulderbaIcon returns Shoulderba icon resource
-func ShoulderbaIcon() fyne.Resource {
-	return shoulderba
+// ShoulderbagIcon returns Shoulderbag icon resource
+func ShoulderbagIcon() fyne.Resource {
+	return shoulderbag
 }
 
 // StockmarketIcon returns Stockmarket icon resource

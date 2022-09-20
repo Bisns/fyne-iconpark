@@ -10,11 +10,11 @@ import (
 var (
 	datadisplay          *theme.ThemedResource
 	datalock             *theme.ThemedResource
-	dataswitchin         *theme.ThemedResource
+	dataswitching        *theme.ThemedResource
 	datauser             *theme.ThemedResource
 	databasealert        *theme.ThemedResource
 	databasecode         *theme.ThemedResource
-	databaseconfi        *theme.ThemedResource
+	databaseconfig       *theme.ThemedResource
 	databasedownload     *theme.ThemedResource
 	databaseenter        *theme.ThemedResource
 	databasefail         *theme.ThemedResource
@@ -28,7 +28,7 @@ var (
 	databasepower        *theme.ThemedResource
 	databaseproportion   *theme.ThemedResource
 	databasesearch       *theme.ThemedResource
-	databasesettin       *theme.ThemedResource
+	databasesetting      *theme.ThemedResource
 	databasesuccess      *theme.ThemedResource
 	databasesync         *theme.ThemedResource
 	databasetime         *theme.ThemedResource
@@ -37,11 +37,11 @@ var (
 func init() {
 	datadisplay = theme.NewThemedResource(resourceDataDisplaySvg)
 	datalock = theme.NewThemedResource(resourceDataLockSvg)
-	dataswitchin = theme.NewThemedResource(resourceDataSwitchingSvg)
+	dataswitching = theme.NewThemedResource(resourceDataSwitchingSvg)
 	datauser = theme.NewThemedResource(resourceDataUserSvg)
 	databasealert = theme.NewThemedResource(resourceDatabaseAlertSvg)
 	databasecode = theme.NewThemedResource(resourceDatabaseCodeSvg)
-	databaseconfi = theme.NewThemedResource(resourceDatabaseConfigSvg)
+	databaseconfig = theme.NewThemedResource(resourceDatabaseConfigSvg)
 	databasedownload = theme.NewThemedResource(resourceDatabaseDownloadSvg)
 	databaseenter = theme.NewThemedResource(resourceDatabaseEnterSvg)
 	databasefail = theme.NewThemedResource(resourceDatabaseFailSvg)
@@ -55,7 +55,7 @@ func init() {
 	databasepower = theme.NewThemedResource(resourceDatabasePowerSvg)
 	databaseproportion = theme.NewThemedResource(resourceDatabaseProportionSvg)
 	databasesearch = theme.NewThemedResource(resourceDatabaseSearchSvg)
-	databasesettin = theme.NewThemedResource(resourceDatabaseSettingSvg)
+	databasesetting = theme.NewThemedResource(resourceDatabaseSettingSvg)
 	databasesuccess = theme.NewThemedResource(resourceDatabaseSuccessSvg)
 	databasesync = theme.NewThemedResource(resourceDatabaseSyncSvg)
 	databasetime = theme.NewThemedResource(resourceDatabaseTimeSvg)
@@ -71,9 +71,9 @@ func DatalockIcon() fyne.Resource {
 	return datalock
 }
 
-// DataswitchinIcon returns Dataswitchin icon resource
-func DataswitchinIcon() fyne.Resource {
-	return dataswitchin
+// DataswitchingIcon returns Dataswitching icon resource
+func DataswitchingIcon() fyne.Resource {
+	return dataswitching
 }
 
 // DatauserIcon returns Datauser icon resource
@@ -91,9 +91,9 @@ func DatabasecodeIcon() fyne.Resource {
 	return databasecode
 }
 
-// DatabaseconfiIcon returns Databaseconfi icon resource
-func DatabaseconfiIcon() fyne.Resource {
-	return databaseconfi
+// DatabaseconfigIcon returns Databaseconfig icon resource
+func DatabaseconfigIcon() fyne.Resource {
+	return databaseconfig
 }
 
 // DatabasedownloadIcon returns Databasedownload icon resource
@@ -161,9 +161,9 @@ func DatabasesearchIcon() fyne.Resource {
 	return databasesearch
 }
 
-// DatabasesettinIcon returns Databasesettin icon resource
-func DatabasesettinIcon() fyne.Resource {
-	return databasesettin
+// DatabasesettingIcon returns Databasesetting icon resource
+func DatabasesettingIcon() fyne.Resource {
+	return databasesetting
 }
 
 // DatabasesuccessIcon returns Databasesuccess icon resource

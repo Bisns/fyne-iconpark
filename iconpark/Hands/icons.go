@@ -17,7 +17,7 @@ var (
 	clicktaptwo      *theme.ThemedResource
 	clicktap         *theme.ThemedResource
 	come             *theme.ThemedResource
-	conceptsharin    *theme.ThemedResource
+	conceptsharing   *theme.ThemedResource
 	cool             *theme.ThemedResource
 	delivery         *theme.ThemedResource
 	easy             *theme.ThemedResource
@@ -36,7 +36,7 @@ var (
 	goodtwo          *theme.ThemedResource
 	good             *theme.ThemedResource
 	handdown         *theme.ThemedResource
-	handdra          *theme.ThemedResource
+	handdrag         *theme.ThemedResource
 	handleft         *theme.ThemedResource
 	handright        *theme.ThemedResource
 	handup           *theme.ThemedResource
@@ -62,7 +62,7 @@ var (
 	rock             *theme.ThemedResource
 	six              *theme.ThemedResource
 	spiderman        *theme.ThemedResource
-	swin             *theme.ThemedResource
+	swing            *theme.ThemedResource
 	threethree       *theme.ThemedResource
 	three            *theme.ThemedResource
 	thumbsdown       *theme.ThemedResource
@@ -86,7 +86,7 @@ func init() {
 	clicktaptwo = theme.NewThemedResource(resourceClickTapTwoSvg)
 	clicktap = theme.NewThemedResource(resourceClickTapSvg)
 	come = theme.NewThemedResource(resourceComeSvg)
-	conceptsharin = theme.NewThemedResource(resourceConceptSharingSvg)
+	conceptsharing = theme.NewThemedResource(resourceConceptSharingSvg)
 	cool = theme.NewThemedResource(resourceCoolSvg)
 	delivery = theme.NewThemedResource(resourceDeliverySvg)
 	easy = theme.NewThemedResource(resourceEasySvg)
@@ -105,7 +105,7 @@ func init() {
 	goodtwo = theme.NewThemedResource(resourceGoodTwoSvg)
 	good = theme.NewThemedResource(resourceGoodSvg)
 	handdown = theme.NewThemedResource(resourceHandDownSvg)
-	handdra = theme.NewThemedResource(resourceHandDragSvg)
+	handdrag = theme.NewThemedResource(resourceHandDragSvg)
 	handleft = theme.NewThemedResource(resourceHandLeftSvg)
 	handright = theme.NewThemedResource(resourceHandRightSvg)
 	handup = theme.NewThemedResource(resourceHandUpSvg)
@@ -131,7 +131,7 @@ func init() {
 	rock = theme.NewThemedResource(resourceRockSvg)
 	six = theme.NewThemedResource(resourceSixSvg)
 	spiderman = theme.NewThemedResource(resourceSpiderManSvg)
-	swin = theme.NewThemedResource(resourceSwingSvg)
+	swing = theme.NewThemedResource(resourceSwingSvg)
 	threethree = theme.NewThemedResource(resourceThreeThreeSvg)
 	three = theme.NewThemedResource(resourceThreeSvg)
 	thumbsdown = theme.NewThemedResource(resourceThumbsDownSvg)
@@ -190,9 +190,9 @@ func ComeIcon() fyne.Resource {
 	return come
 }
 
-// ConceptsharinIcon returns Conceptsharin icon resource
-func ConceptsharinIcon() fyne.Resource {
-	return conceptsharin
+// ConceptsharingIcon returns Conceptsharing icon resource
+func ConceptsharingIcon() fyne.Resource {
+	return conceptsharing
 }
 
 // CoolIcon returns Cool icon resource
@@ -285,9 +285,9 @@ func HanddownIcon() fyne.Resource {
 	return handdown
 }
 
-// HanddraIcon returns Handdra icon resource
-func HanddraIcon() fyne.Resource {
-	return handdra
+// HanddragIcon returns Handdrag icon resource
+func HanddragIcon() fyne.Resource {
+	return handdrag
 }
 
 // HandleftIcon returns Handleft icon resource
@@ -415,9 +415,9 @@ func SpidermanIcon() fyne.Resource {
 	return spiderman
 }
 
-// SwinIcon returns Swin icon resource
-func SwinIcon() fyne.Resource {
-	return swin
+// SwingIcon returns Swing icon resource
+func SwingIcon() fyne.Resource {
+	return swing
 }
 
 // ThreethreeIcon returns Threethree icon resource

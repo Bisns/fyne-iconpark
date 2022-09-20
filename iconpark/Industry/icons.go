@@ -18,7 +18,7 @@ var (
 	industrialscales    *theme.ThemedResource
 	ladderone           *theme.ThemedResource
 	ladder              *theme.ThemedResource
-	landsurveyin        *theme.ThemedResource
+	landsurveying       *theme.ThemedResource
 	leddiode            *theme.ThemedResource
 	oilindustry         *theme.ThemedResource
 	oscillator          *theme.ThemedResource
@@ -47,7 +47,7 @@ func init() {
 	industrialscales = theme.NewThemedResource(resourceIndustrialScalesSvg)
 	ladderone = theme.NewThemedResource(resourceLadderOneSvg)
 	ladder = theme.NewThemedResource(resourceLadderSvg)
-	landsurveyin = theme.NewThemedResource(resourceLandSurveyingSvg)
+	landsurveying = theme.NewThemedResource(resourceLandSurveyingSvg)
 	leddiode = theme.NewThemedResource(resourceLedDiodeSvg)
 	oilindustry = theme.NewThemedResource(resourceOilIndustrySvg)
 	oscillator = theme.NewThemedResource(resourceOscillatorSvg)
@@ -115,9 +115,9 @@ func LadderIcon() fyne.Resource {
 	return ladder
 }
 
-// LandsurveyinIcon returns Landsurveyin icon resource
-func LandsurveyinIcon() fyne.Resource {
-	return landsurveyin
+// LandsurveyingIcon returns Landsurveying icon resource
+func LandsurveyingIcon() fyne.Resource {
+	return landsurveying
 }
 
 // LeddiodeIcon returns Leddiode icon resource

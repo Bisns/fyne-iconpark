@@ -10,7 +10,7 @@ import (
 var (
 	cloudynight     *theme.ThemedResource
 	cloudy          *theme.ThemedResource
-	fo              *theme.ThemedResource
+	fog             *theme.ThemedResource
 	heavyrain       *theme.ThemedResource
 	heavywind       *theme.ThemedResource
 	lightrain       *theme.ThemedResource
@@ -29,7 +29,7 @@ var (
 func init() {
 	cloudynight = theme.NewThemedResource(resourceCloudyNightSvg)
 	cloudy = theme.NewThemedResource(resourceCloudySvg)
-	fo = theme.NewThemedResource(resourceFogSvg)
+	fog = theme.NewThemedResource(resourceFogSvg)
 	heavyrain = theme.NewThemedResource(resourceHeavyRainSvg)
 	heavywind = theme.NewThemedResource(resourceHeavyWindSvg)
 	lightrain = theme.NewThemedResource(resourceLightRainSvg)
@@ -55,9 +55,9 @@ func CloudyIcon() fyne.Resource {
 	return cloudy
 }
 
-// FoIcon returns Fo icon resource
-func FoIcon() fyne.Resource {
-	return fo
+// FogIcon returns Fog icon resource
+func FogIcon() fyne.Resource {
+	return fog
 }
 
 // HeavyrainIcon returns Heavyrain icon resource

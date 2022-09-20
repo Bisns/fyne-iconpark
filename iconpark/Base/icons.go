@@ -8,13 +8,13 @@ import (
 )
 
 var (
-	aimin           *theme.ThemedResource
+	aiming          *theme.ThemedResource
 	allapplication  *theme.ThemedResource
 	bill            *theme.ThemedResource
 	bookmarkone     *theme.ThemedResource
 	bookmark        *theme.ThemedResource
 	camera          *theme.ThemedResource
-	confi           *theme.ThemedResource
+	config          *theme.ThemedResource
 	deletetwo       *theme.ThemedResource
 	disliketwo      *theme.ThemedResource
 	dislike         *theme.ThemedResource
@@ -24,10 +24,10 @@ var (
 	home            *theme.ThemedResource
 	hourglassfull   *theme.ThemedResource
 	hourglassnull   *theme.ThemedResource
-	lightnin        *theme.ThemedResource
+	lightning       *theme.ThemedResource
 	like            *theme.ThemedResource
 	loadingfour     *theme.ThemedResource
-	loadin          *theme.ThemedResource
+	loading         *theme.ThemedResource
 	male            *theme.ThemedResource
 	moreapp         *theme.ThemedResource
 	moreone         *theme.ThemedResource
@@ -44,17 +44,17 @@ var (
 	saveone         *theme.ThemedResource
 	save            *theme.ThemedResource
 	search          *theme.ThemedResource
-	settingconfi    *theme.ThemedResource
+	settingconfig   *theme.ThemedResource
 	settingone      *theme.ThemedResource
 	settingthree    *theme.ThemedResource
 	settingtwo      *theme.ThemedResource
-	settin          *theme.ThemedResource
+	setting         *theme.ThemedResource
 	sharethree      *theme.ThemedResource
 	share           *theme.ThemedResource
 	sleep           *theme.ThemedResource
 	system          *theme.ThemedResource
 	tagone          *theme.ThemedResource
-	ta              *theme.ThemedResource
+	tag             *theme.ThemedResource
 	tips            *theme.ThemedResource
 	tool            *theme.ThemedResource
 	translate       *theme.ThemedResource
@@ -66,13 +66,13 @@ var (
 )
 
 func init() {
-	aimin = theme.NewThemedResource(resourceAimingSvg)
+	aiming = theme.NewThemedResource(resourceAimingSvg)
 	allapplication = theme.NewThemedResource(resourceAllApplicationSvg)
 	bill = theme.NewThemedResource(resourceBillSvg)
 	bookmarkone = theme.NewThemedResource(resourceBookmarkOneSvg)
 	bookmark = theme.NewThemedResource(resourceBookmarkSvg)
 	camera = theme.NewThemedResource(resourceCameraSvg)
-	confi = theme.NewThemedResource(resourceConfigSvg)
+	config = theme.NewThemedResource(resourceConfigSvg)
 	deletetwo = theme.NewThemedResource(resourceDeleteTwoSvg)
 	disliketwo = theme.NewThemedResource(resourceDislikeTwoSvg)
 	dislike = theme.NewThemedResource(resourceDislikeSvg)
@@ -82,10 +82,10 @@ func init() {
 	home = theme.NewThemedResource(resourceHomeSvg)
 	hourglassfull = theme.NewThemedResource(resourceHourglassFullSvg)
 	hourglassnull = theme.NewThemedResource(resourceHourglassNullSvg)
-	lightnin = theme.NewThemedResource(resourceLightningSvg)
+	lightning = theme.NewThemedResource(resourceLightningSvg)
 	like = theme.NewThemedResource(resourceLikeSvg)
 	loadingfour = theme.NewThemedResource(resourceLoadingFourSvg)
-	loadin = theme.NewThemedResource(resourceLoadingSvg)
+	loading = theme.NewThemedResource(resourceLoadingSvg)
 	male = theme.NewThemedResource(resourceMaleSvg)
 	moreapp = theme.NewThemedResource(resourceMoreAppSvg)
 	moreone = theme.NewThemedResource(resourceMoreOneSvg)
@@ -102,17 +102,17 @@ func init() {
 	saveone = theme.NewThemedResource(resourceSaveOneSvg)
 	save = theme.NewThemedResource(resourceSaveSvg)
 	search = theme.NewThemedResource(resourceSearchSvg)
-	settingconfi = theme.NewThemedResource(resourceSettingConfigSvg)
+	settingconfig = theme.NewThemedResource(resourceSettingConfigSvg)
 	settingone = theme.NewThemedResource(resourceSettingOneSvg)
 	settingthree = theme.NewThemedResource(resourceSettingThreeSvg)
 	settingtwo = theme.NewThemedResource(resourceSettingTwoSvg)
-	settin = theme.NewThemedResource(resourceSettingSvg)
+	setting = theme.NewThemedResource(resourceSettingSvg)
 	sharethree = theme.NewThemedResource(resourceShareThreeSvg)
 	share = theme.NewThemedResource(resourceShareSvg)
 	sleep = theme.NewThemedResource(resourceSleepSvg)
 	system = theme.NewThemedResource(resourceSystemSvg)
 	tagone = theme.NewThemedResource(resourceTagOneSvg)
-	ta = theme.NewThemedResource(resourceTagSvg)
+	tag = theme.NewThemedResource(resourceTagSvg)
 	tips = theme.NewThemedResource(resourceTipsSvg)
 	tool = theme.NewThemedResource(resourceToolSvg)
 	translate = theme.NewThemedResource(resourceTranslateSvg)
@@ -123,9 +123,9 @@ func init() {
 	zoomout = theme.NewThemedResource(resourceZoomOutSvg)
 }
 
-// AiminIcon returns Aimin icon resource
-func AiminIcon() fyne.Resource {
-	return aimin
+// AimingIcon returns Aiming icon resource
+func AimingIcon() fyne.Resource {
+	return aiming
 }
 
 // AllapplicationIcon returns Allapplication icon resource
@@ -153,9 +153,9 @@ func CameraIcon() fyne.Resource {
 	return camera
 }
 
-// ConfiIcon returns Confi icon resource
-func ConfiIcon() fyne.Resource {
-	return confi
+// ConfigIcon returns Config icon resource
+func ConfigIcon() fyne.Resource {
+	return config
 }
 
 // DeletetwoIcon returns Deletetwo icon resource
@@ -203,9 +203,9 @@ func HourglassnullIcon() fyne.Resource {
 	return hourglassnull
 }
 
-// LightninIcon returns Lightnin icon resource
-func LightninIcon() fyne.Resource {
-	return lightnin
+// LightningIcon returns Lightning icon resource
+func LightningIcon() fyne.Resource {
+	return lightning
 }
 
 // LikeIcon returns Like icon resource
@@ -218,9 +218,9 @@ func LoadingfourIcon() fyne.Resource {
 	return loadingfour
 }
 
-// LoadinIcon returns Loadin icon resource
-func LoadinIcon() fyne.Resource {
-	return loadin
+// LoadingIcon returns Loading icon resource
+func LoadingIcon() fyne.Resource {
+	return loading
 }
 
 // MaleIcon returns Male icon resource
@@ -303,9 +303,9 @@ func SearchIcon() fyne.Resource {
 	return search
 }
 
-// SettingconfiIcon returns Settingconfi icon resource
-func SettingconfiIcon() fyne.Resource {
-	return settingconfi
+// SettingconfigIcon returns Settingconfig icon resource
+func SettingconfigIcon() fyne.Resource {
+	return settingconfig
 }
 
 // SettingoneIcon returns Settingone icon resource
@@ -323,9 +323,9 @@ func SettingtwoIcon() fyne.Resource {
 	return settingtwo
 }
 
-// SettinIcon returns Settin icon resource
-func SettinIcon() fyne.Resource {
-	return settin
+// SettingIcon returns Setting icon resource
+func SettingIcon() fyne.Resource {
+	return setting
 }
 
 // SharethreeIcon returns Sharethree icon resource
@@ -353,9 +353,9 @@ func TagoneIcon() fyne.Resource {
 	return tagone
 }
 
-// TaIcon returns Ta icon resource
-func TaIcon() fyne.Resource {
-	return ta
+// TagIcon returns Tag icon resource
+func TagIcon() fyne.Resource {
+	return tag
 }
 
 // TipsIcon returns Tips icon resource

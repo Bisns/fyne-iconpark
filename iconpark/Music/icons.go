@@ -11,7 +11,7 @@ var (
 	acoustic          *theme.ThemedResource
 	addmusic          *theme.ThemedResource
 	airpods           *theme.ThemedResource
-	bellrin           *theme.ThemedResource
+	bellring          *theme.ThemedResource
 	carouselvideo     *theme.ThemedResource
 	closeremind       *theme.ThemedResource
 	collectionrecords *theme.ThemedResource
@@ -40,7 +40,7 @@ var (
 	performance       *theme.ThemedResource
 	piano             *theme.ThemedResource
 	playone           *theme.ThemedResource
-	playwron          *theme.ThemedResource
+	playwrong         *theme.ThemedResource
 	play              *theme.ThemedResource
 	playbackprogress  *theme.ThemedResource
 	ppt               *theme.ThemedResource
@@ -71,7 +71,7 @@ func init() {
 	acoustic = theme.NewThemedResource(resourceAcousticSvg)
 	addmusic = theme.NewThemedResource(resourceAddMusicSvg)
 	airpods = theme.NewThemedResource(resourceAirpodsSvg)
-	bellrin = theme.NewThemedResource(resourceBellRingSvg)
+	bellring = theme.NewThemedResource(resourceBellRingSvg)
 	carouselvideo = theme.NewThemedResource(resourceCarouselVideoSvg)
 	closeremind = theme.NewThemedResource(resourceCloseRemindSvg)
 	collectionrecords = theme.NewThemedResource(resourceCollectionRecordsSvg)
@@ -100,7 +100,7 @@ func init() {
 	performance = theme.NewThemedResource(resourcePerformanceSvg)
 	piano = theme.NewThemedResource(resourcePianoSvg)
 	playone = theme.NewThemedResource(resourcePlayOneSvg)
-	playwron = theme.NewThemedResource(resourcePlayWrongSvg)
+	playwrong = theme.NewThemedResource(resourcePlayWrongSvg)
 	play = theme.NewThemedResource(resourcePlaySvg)
 	playbackprogress = theme.NewThemedResource(resourcePlaybackProgressSvg)
 	ppt = theme.NewThemedResource(resourcePptSvg)
@@ -142,9 +142,9 @@ func AirpodsIcon() fyne.Resource {
 	return airpods
 }
 
-// BellrinIcon returns Bellrin icon resource
-func BellrinIcon() fyne.Resource {
-	return bellrin
+// BellringIcon returns Bellring icon resource
+func BellringIcon() fyne.Resource {
+	return bellring
 }
 
 // CarouselvideoIcon returns Carouselvideo icon resource
@@ -287,9 +287,9 @@ func PlayoneIcon() fyne.Resource {
 	return playone
 }
 
-// PlaywronIcon returns Playwron icon resource
-func PlaywronIcon() fyne.Resource {
-	return playwron
+// PlaywrongIcon returns Playwrong icon resource
+func PlaywrongIcon() fyne.Resource {
+	return playwrong
 }
 
 // PlayIcon returns Play icon resource

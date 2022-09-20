@@ -9,7 +9,7 @@ import (
 
 var (
 	addcomputer            *theme.ThemedResource
-	airconditionin         *theme.ThemedResource
+	airconditioning        *theme.ThemedResource
 	airplay                *theme.ThemedResource
 	asteriskkey            *theme.ThemedResource
 	batteryfailure         *theme.ThemedResource
@@ -145,7 +145,7 @@ var (
 	phone                  *theme.ThemedResource
 	phonograph             *theme.ThemedResource
 	plugone                *theme.ThemedResource
-	plu                    *theme.ThemedResource
+	plug                   *theme.ThemedResource
 	powersupplyone         *theme.ThemedResource
 	powersupply            *theme.ThemedResource
 	printerone             *theme.ThemedResource
@@ -209,7 +209,7 @@ var (
 	truck                  *theme.ThemedResource
 	trumpet                *theme.ThemedResource
 	tvone                  *theme.ThemedResource
-	t                      *theme.ThemedResource
+	tv                     *theme.ThemedResource
 	twokey                 *theme.ThemedResource
 	typedrive              *theme.ThemedResource
 	udisk                  *theme.ThemedResource
@@ -235,7 +235,7 @@ var (
 
 func init() {
 	addcomputer = theme.NewThemedResource(resourceAddComputerSvg)
-	airconditionin = theme.NewThemedResource(resourceAirConditioningSvg)
+	airconditioning = theme.NewThemedResource(resourceAirConditioningSvg)
 	airplay = theme.NewThemedResource(resourceAirplaySvg)
 	asteriskkey = theme.NewThemedResource(resourceAsteriskKeySvg)
 	batteryfailure = theme.NewThemedResource(resourceBatteryFailureSvg)
@@ -371,7 +371,7 @@ func init() {
 	phone = theme.NewThemedResource(resourcePhoneSvg)
 	phonograph = theme.NewThemedResource(resourcePhonographSvg)
 	plugone = theme.NewThemedResource(resourcePlugOneSvg)
-	plu = theme.NewThemedResource(resourcePlugSvg)
+	plug = theme.NewThemedResource(resourcePlugSvg)
 	powersupplyone = theme.NewThemedResource(resourcePowerSupplyOneSvg)
 	powersupply = theme.NewThemedResource(resourcePowerSupplySvg)
 	printerone = theme.NewThemedResource(resourcePrinterOneSvg)
@@ -435,7 +435,7 @@ func init() {
 	truck = theme.NewThemedResource(resourceTruckSvg)
 	trumpet = theme.NewThemedResource(resourceTrumpetSvg)
 	tvone = theme.NewThemedResource(resourceTvOneSvg)
-	t = theme.NewThemedResource(resourceTvSvg)
+	tv = theme.NewThemedResource(resourceTvSvg)
 	twokey = theme.NewThemedResource(resourceTwoKeySvg)
 	typedrive = theme.NewThemedResource(resourceTypeDriveSvg)
 	udisk = theme.NewThemedResource(resourceUDiskSvg)
@@ -464,9 +464,9 @@ func AddcomputerIcon() fyne.Resource {
 	return addcomputer
 }
 
-// AirconditioninIcon returns Airconditionin icon resource
-func AirconditioninIcon() fyne.Resource {
-	return airconditionin
+// AirconditioningIcon returns Airconditioning icon resource
+func AirconditioningIcon() fyne.Resource {
+	return airconditioning
 }
 
 // AirplayIcon returns Airplay icon resource
@@ -1144,9 +1144,9 @@ func PlugoneIcon() fyne.Resource {
 	return plugone
 }
 
-// PluIcon returns Plu icon resource
-func PluIcon() fyne.Resource {
-	return plu
+// PlugIcon returns Plug icon resource
+func PlugIcon() fyne.Resource {
+	return plug
 }
 
 // PowersupplyoneIcon returns Powersupplyone icon resource
@@ -1464,9 +1464,9 @@ func TvoneIcon() fyne.Resource {
 	return tvone
 }
 
-// TIcon returns T icon resource
-func TIcon() fyne.Resource {
-	return t
+// TvIcon returns Tv icon resource
+func TvIcon() fyne.Resource {
+	return tv
 }
 
 // TwokeyIcon returns Twokey icon resource

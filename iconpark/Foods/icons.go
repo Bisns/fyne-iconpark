@@ -13,7 +13,7 @@ var (
 	avocado          *theme.ThemedResource
 	banana           *theme.ThemedResource
 	barbecue         *theme.ThemedResource
-	beermu           *theme.ThemedResource
+	beermug          *theme.ThemedResource
 	beer             *theme.ThemedResource
 	birthdaycake     *theme.ThemedResource
 	bone             *theme.ThemedResource
@@ -39,14 +39,14 @@ var (
 	cheese           *theme.ThemedResource
 	chefhatone       *theme.ThemedResource
 	cherry           *theme.ThemedResource
-	chickenle        *theme.ThemedResource
+	chickenleg       *theme.ThemedResource
 	chicken          *theme.ThemedResource
 	chili            *theme.ThemedResource
 	choppingboard    *theme.ThemedResource
 	chopsticksfork   *theme.ThemedResource
 	cola             *theme.ThemedResource
 	cook             *theme.ThemedResource
-	cookin           *theme.ThemedResource
+	cooking          *theme.ThemedResource
 	crab             *theme.ThemedResource
 	croissant        *theme.ThemedResource
 	cupfour          *theme.ThemedResource
@@ -55,14 +55,14 @@ var (
 	drink            *theme.ThemedResource
 	drumstick        *theme.ThemedResource
 	eggone           *theme.ThemedResource
-	e                *theme.ThemedResource
+	egg              *theme.ThemedResource
 	eggplant         *theme.ThemedResource
 	fish             *theme.ThemedResource
 	forkspoon        *theme.ThemedResource
 	frenchfries      *theme.ThemedResource
 	garlic           *theme.ThemedResource
 	glove            *theme.ThemedResource
-	gobletcrackin    *theme.ThemedResource
+	gobletcracking   *theme.ThemedResource
 	gobletfull       *theme.ThemedResource
 	gobletone        *theme.ThemedResource
 	goblet           *theme.ThemedResource
@@ -137,7 +137,7 @@ func init() {
 	avocado = theme.NewThemedResource(resourceAvocadoSvg)
 	banana = theme.NewThemedResource(resourceBananaSvg)
 	barbecue = theme.NewThemedResource(resourceBarbecueSvg)
-	beermu = theme.NewThemedResource(resourceBeerMugSvg)
+	beermug = theme.NewThemedResource(resourceBeerMugSvg)
 	beer = theme.NewThemedResource(resourceBeerSvg)
 	birthdaycake = theme.NewThemedResource(resourceBirthdayCakeSvg)
 	bone = theme.NewThemedResource(resourceBoneSvg)
@@ -163,14 +163,14 @@ func init() {
 	cheese = theme.NewThemedResource(resourceCheeseSvg)
 	chefhatone = theme.NewThemedResource(resourceChefHatOneSvg)
 	cherry = theme.NewThemedResource(resourceCherrySvg)
-	chickenle = theme.NewThemedResource(resourceChickenLegSvg)
+	chickenleg = theme.NewThemedResource(resourceChickenLegSvg)
 	chicken = theme.NewThemedResource(resourceChickenSvg)
 	chili = theme.NewThemedResource(resourceChiliSvg)
 	choppingboard = theme.NewThemedResource(resourceChoppingBoardSvg)
 	chopsticksfork = theme.NewThemedResource(resourceChopsticksForkSvg)
 	cola = theme.NewThemedResource(resourceColaSvg)
 	cook = theme.NewThemedResource(resourceCookSvg)
-	cookin = theme.NewThemedResource(resourceCookingSvg)
+	cooking = theme.NewThemedResource(resourceCookingSvg)
 	crab = theme.NewThemedResource(resourceCrabSvg)
 	croissant = theme.NewThemedResource(resourceCroissantSvg)
 	cupfour = theme.NewThemedResource(resourceCupFourSvg)
@@ -179,14 +179,14 @@ func init() {
 	drink = theme.NewThemedResource(resourceDrinkSvg)
 	drumstick = theme.NewThemedResource(resourceDrumstickSvg)
 	eggone = theme.NewThemedResource(resourceEggOneSvg)
-	e = theme.NewThemedResource(resourceEggSvg)
+	egg = theme.NewThemedResource(resourceEggSvg)
 	eggplant = theme.NewThemedResource(resourceEggplantSvg)
 	fish = theme.NewThemedResource(resourceFishSvg)
 	forkspoon = theme.NewThemedResource(resourceForkSpoonSvg)
 	frenchfries = theme.NewThemedResource(resourceFrenchFriesSvg)
 	garlic = theme.NewThemedResource(resourceGarlicSvg)
 	glove = theme.NewThemedResource(resourceGloveSvg)
-	gobletcrackin = theme.NewThemedResource(resourceGobletCrackingSvg)
+	gobletcracking = theme.NewThemedResource(resourceGobletCrackingSvg)
 	gobletfull = theme.NewThemedResource(resourceGobletFullSvg)
 	gobletone = theme.NewThemedResource(resourceGobletOneSvg)
 	goblet = theme.NewThemedResource(resourceGobletSvg)
@@ -280,9 +280,9 @@ func BarbecueIcon() fyne.Resource {
 	return barbecue
 }
 
-// BeermuIcon returns Beermu icon resource
-func BeermuIcon() fyne.Resource {
-	return beermu
+// BeermugIcon returns Beermug icon resource
+func BeermugIcon() fyne.Resource {
+	return beermug
 }
 
 // BeerIcon returns Beer icon resource
@@ -410,9 +410,9 @@ func CherryIcon() fyne.Resource {
 	return cherry
 }
 
-// ChickenleIcon returns Chickenle icon resource
-func ChickenleIcon() fyne.Resource {
-	return chickenle
+// ChickenlegIcon returns Chickenleg icon resource
+func ChickenlegIcon() fyne.Resource {
+	return chickenleg
 }
 
 // ChickenIcon returns Chicken icon resource
@@ -445,9 +445,9 @@ func CookIcon() fyne.Resource {
 	return cook
 }
 
-// CookinIcon returns Cookin icon resource
-func CookinIcon() fyne.Resource {
-	return cookin
+// CookingIcon returns Cooking icon resource
+func CookingIcon() fyne.Resource {
+	return cooking
 }
 
 // CrabIcon returns Crab icon resource
@@ -490,9 +490,9 @@ func EggoneIcon() fyne.Resource {
 	return eggone
 }
 
-// EIcon returns E icon resource
-func EIcon() fyne.Resource {
-	return e
+// EggIcon returns Egg icon resource
+func EggIcon() fyne.Resource {
+	return egg
 }
 
 // EggplantIcon returns Eggplant icon resource
@@ -525,9 +525,9 @@ func GloveIcon() fyne.Resource {
 	return glove
 }
 
-// GobletcrackinIcon returns Gobletcrackin icon resource
-func GobletcrackinIcon() fyne.Resource {
-	return gobletcrackin
+// GobletcrackingIcon returns Gobletcracking icon resource
+func GobletcrackingIcon() fyne.Resource {
+	return gobletcracking
 }
 
 // GobletfullIcon returns Gobletfull icon resource

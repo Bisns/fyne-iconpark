@@ -10,7 +10,7 @@ import (
 var (
 	alarm            *theme.ThemedResource
 	balancetwo       *theme.ThemedResource
-	bu               *theme.ThemedResource
+	bug              *theme.ThemedResource
 	caution          *theme.ThemedResource
 	fireextinguisher *theme.ThemedResource
 	harm             *theme.ThemedResource
@@ -31,7 +31,7 @@ var (
 func init() {
 	alarm = theme.NewThemedResource(resourceAlarmSvg)
 	balancetwo = theme.NewThemedResource(resourceBalanceTwoSvg)
-	bu = theme.NewThemedResource(resourceBugSvg)
+	bug = theme.NewThemedResource(resourceBugSvg)
 	caution = theme.NewThemedResource(resourceCautionSvg)
 	fireextinguisher = theme.NewThemedResource(resourceFireExtinguisherSvg)
 	harm = theme.NewThemedResource(resourceHarmSvg)
@@ -59,9 +59,9 @@ func BalancetwoIcon() fyne.Resource {
 	return balancetwo
 }
 
-// BuIcon returns Bu icon resource
-func BuIcon() fyne.Resource {
-	return bu
+// BugIcon returns Bug icon resource
+func BugIcon() fyne.Resource {
+	return bug
 }
 
 // CautionIcon returns Caution icon resource

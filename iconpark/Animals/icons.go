@@ -19,14 +19,14 @@ var (
 	chickenzodiac *theme.ThemedResource
 	deer          *theme.ThemedResource
 	dogzodiac     *theme.ThemedResource
-	do            *theme.ThemedResource
+	dog           *theme.ThemedResource
 	dolphin       *theme.ThemedResource
 	dragonzodiac  *theme.ThemedResource
 	duck          *theme.ThemedResource
 	eagle         *theme.ThemedResource
 	elephant      *theme.ThemedResource
 	fishone       *theme.ThemedResource
-	fro           *theme.ThemedResource
+	frog          *theme.ThemedResource
 	hippo         *theme.ThemedResource
 	horsezodiac   *theme.ThemedResource
 	koalabear     *theme.ThemedResource
@@ -36,7 +36,7 @@ var (
 	owl           *theme.ThemedResource
 	panda         *theme.ThemedResource
 	pigzodiac     *theme.ThemedResource
-	pi            *theme.ThemedResource
+	pig           *theme.ThemedResource
 	pigeon        *theme.ThemedResource
 	rabbitzodiac  *theme.ThemedResource
 	rabbit        *theme.ThemedResource
@@ -58,14 +58,14 @@ func init() {
 	chickenzodiac = theme.NewThemedResource(resourceChickenZodiacSvg)
 	deer = theme.NewThemedResource(resourceDeerSvg)
 	dogzodiac = theme.NewThemedResource(resourceDogZodiacSvg)
-	do = theme.NewThemedResource(resourceDogSvg)
+	dog = theme.NewThemedResource(resourceDogSvg)
 	dolphin = theme.NewThemedResource(resourceDolphinSvg)
 	dragonzodiac = theme.NewThemedResource(resourceDragonZodiacSvg)
 	duck = theme.NewThemedResource(resourceDuckSvg)
 	eagle = theme.NewThemedResource(resourceEagleSvg)
 	elephant = theme.NewThemedResource(resourceElephantSvg)
 	fishone = theme.NewThemedResource(resourceFishOneSvg)
-	fro = theme.NewThemedResource(resourceFrogSvg)
+	frog = theme.NewThemedResource(resourceFrogSvg)
 	hippo = theme.NewThemedResource(resourceHippoSvg)
 	horsezodiac = theme.NewThemedResource(resourceHorseZodiacSvg)
 	koalabear = theme.NewThemedResource(resourceKoalaBearSvg)
@@ -75,7 +75,7 @@ func init() {
 	owl = theme.NewThemedResource(resourceOwlSvg)
 	panda = theme.NewThemedResource(resourcePandaSvg)
 	pigzodiac = theme.NewThemedResource(resourcePigZodiacSvg)
-	pi = theme.NewThemedResource(resourcePigSvg)
+	pig = theme.NewThemedResource(resourcePigSvg)
 	pigeon = theme.NewThemedResource(resourcePigeonSvg)
 	rabbitzodiac = theme.NewThemedResource(resourceRabbitZodiacSvg)
 	rabbit = theme.NewThemedResource(resourceRabbitSvg)
@@ -140,9 +140,9 @@ func DogzodiacIcon() fyne.Resource {
 	return dogzodiac
 }
 
-// DoIcon returns Do icon resource
-func DoIcon() fyne.Resource {
-	return do
+// DogIcon returns Dog icon resource
+func DogIcon() fyne.Resource {
+	return dog
 }
 
 // DolphinIcon returns Dolphin icon resource
@@ -175,9 +175,9 @@ func FishoneIcon() fyne.Resource {
 	return fishone
 }
 
-// FroIcon returns Fro icon resource
-func FroIcon() fyne.Resource {
-	return fro
+// FrogIcon returns Frog icon resource
+func FrogIcon() fyne.Resource {
+	return frog
 }
 
 // HippoIcon returns Hippo icon resource
@@ -225,9 +225,9 @@ func PigzodiacIcon() fyne.Resource {
 	return pigzodiac
 }
 
-// PiIcon returns Pi icon resource
-func PiIcon() fyne.Resource {
-	return pi
+// PigIcon returns Pig icon resource
+func PigIcon() fyne.Resource {
+	return pig
 }
 
 // PigeonIcon returns Pigeon icon resource

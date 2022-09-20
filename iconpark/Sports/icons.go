@@ -15,7 +15,7 @@ var (
 	badgetwo        *theme.ThemedResource
 	badminton       *theme.ThemedResource
 	balanceone      *theme.ThemedResource
-	baokemen        *theme.ThemedResource
+	baokemeng       *theme.ThemedResource
 	baseballbat     *theme.ThemedResource
 	baseball        *theme.ThemedResource
 	basketballone   *theme.ThemedResource
@@ -23,14 +23,14 @@ var (
 	basketball      *theme.ThemedResource
 	blackeight      *theme.ThemedResource
 	bottombarone    *theme.ThemedResource
-	bowlin          *theme.ThemedResource
+	bowling         *theme.ThemedResource
 	boxingone       *theme.ThemedResource
-	boxin           *theme.ThemedResource
+	boxing          *theme.ThemedResource
 	checkerboard    *theme.ThemedResource
 	chessone        *theme.ThemedResource
 	chess           *theme.ThemedResource
 	court           *theme.ThemedResource
-	curlin          *theme.ThemedResource
+	curling         *theme.ThemedResource
 	divingbottle    *theme.ThemedResource
 	divingsuit      *theme.ThemedResource
 	dumbbelline     *theme.ThemedResource
@@ -53,18 +53,18 @@ var (
 	muscle          *theme.ThemedResource
 	playbasketball  *theme.ThemedResource
 	playvolleyball  *theme.ThemedResource
-	ridin           *theme.ThemedResource
+	riding          *theme.ThemedResource
 	rings           *theme.ThemedResource
 	rollerskates    *theme.ThemedResource
 	ropeskippingone *theme.ThemedResource
-	ropeskippin     *theme.ThemedResource
-	rowin           *theme.ThemedResource
+	ropeskipping    *theme.ThemedResource
+	rowing          *theme.ThemedResource
 	rugbyone        *theme.ThemedResource
 	rugby           *theme.ThemedResource
 	sailboat        *theme.ThemedResource
 	scoreboard      *theme.ThemedResource
 	skate           *theme.ThemedResource
-	skatin          *theme.ThemedResource
+	skating         *theme.ThemedResource
 	skiingnordic    *theme.ThemedResource
 	soccerone       *theme.ThemedResource
 	soccer          *theme.ThemedResource
@@ -72,10 +72,10 @@ var (
 	spikedshoes     *theme.ThemedResource
 	spinningtop     *theme.ThemedResource
 	sport           *theme.ThemedResource
-	sportin         *theme.ThemedResource
+	sporting        *theme.ThemedResource
 	stretchingone   *theme.ThemedResource
 	swimmingpool    *theme.ThemedResource
-	swimmingrin     *theme.ThemedResource
+	swimmingring    *theme.ThemedResource
 	tabletennis     *theme.ThemedResource
 	targetone       *theme.ThemedResource
 	targettwo       *theme.ThemedResource
@@ -89,9 +89,9 @@ var (
 	volleyball      *theme.ThemedResource
 	waterpoloone    *theme.ThemedResource
 	waterpolo       *theme.ThemedResource
-	weightliftin    *theme.ThemedResource
-	whistlin        *theme.ThemedResource
-	wingsuitflyin   *theme.ThemedResource
+	weightlifting   *theme.ThemedResource
+	whistling       *theme.ThemedResource
+	wingsuitflying  *theme.ThemedResource
 )
 
 func init() {
@@ -102,7 +102,7 @@ func init() {
 	badgetwo = theme.NewThemedResource(resourceBadgeTwoSvg)
 	badminton = theme.NewThemedResource(resourceBadmintonSvg)
 	balanceone = theme.NewThemedResource(resourceBalanceOneSvg)
-	baokemen = theme.NewThemedResource(resourceBaokemengSvg)
+	baokemeng = theme.NewThemedResource(resourceBaokemengSvg)
 	baseballbat = theme.NewThemedResource(resourceBaseballBatSvg)
 	baseball = theme.NewThemedResource(resourceBaseballSvg)
 	basketballone = theme.NewThemedResource(resourceBasketballOneSvg)
@@ -110,14 +110,14 @@ func init() {
 	basketball = theme.NewThemedResource(resourceBasketballSvg)
 	blackeight = theme.NewThemedResource(resourceBlackEightSvg)
 	bottombarone = theme.NewThemedResource(resourceBottomBarOneSvg)
-	bowlin = theme.NewThemedResource(resourceBowlingSvg)
+	bowling = theme.NewThemedResource(resourceBowlingSvg)
 	boxingone = theme.NewThemedResource(resourceBoxingOneSvg)
-	boxin = theme.NewThemedResource(resourceBoxingSvg)
+	boxing = theme.NewThemedResource(resourceBoxingSvg)
 	checkerboard = theme.NewThemedResource(resourceCheckerboardSvg)
 	chessone = theme.NewThemedResource(resourceChessOneSvg)
 	chess = theme.NewThemedResource(resourceChessSvg)
 	court = theme.NewThemedResource(resourceCourtSvg)
-	curlin = theme.NewThemedResource(resourceCurlingSvg)
+	curling = theme.NewThemedResource(resourceCurlingSvg)
 	divingbottle = theme.NewThemedResource(resourceDivingBottleSvg)
 	divingsuit = theme.NewThemedResource(resourceDivingSuitSvg)
 	dumbbelline = theme.NewThemedResource(resourceDumbbelLineSvg)
@@ -140,18 +140,18 @@ func init() {
 	muscle = theme.NewThemedResource(resourceMuscleSvg)
 	playbasketball = theme.NewThemedResource(resourcePlayBasketballSvg)
 	playvolleyball = theme.NewThemedResource(resourcePlayVolleyballSvg)
-	ridin = theme.NewThemedResource(resourceRidingSvg)
+	riding = theme.NewThemedResource(resourceRidingSvg)
 	rings = theme.NewThemedResource(resourceRingsSvg)
 	rollerskates = theme.NewThemedResource(resourceRollerskatesSvg)
 	ropeskippingone = theme.NewThemedResource(resourceRopeSkippingOneSvg)
-	ropeskippin = theme.NewThemedResource(resourceRopeSkippingSvg)
-	rowin = theme.NewThemedResource(resourceRowingSvg)
+	ropeskipping = theme.NewThemedResource(resourceRopeSkippingSvg)
+	rowing = theme.NewThemedResource(resourceRowingSvg)
 	rugbyone = theme.NewThemedResource(resourceRugbyOneSvg)
 	rugby = theme.NewThemedResource(resourceRugbySvg)
 	sailboat = theme.NewThemedResource(resourceSailboatSvg)
 	scoreboard = theme.NewThemedResource(resourceScoreboardSvg)
 	skate = theme.NewThemedResource(resourceSkateSvg)
-	skatin = theme.NewThemedResource(resourceSkatingSvg)
+	skating = theme.NewThemedResource(resourceSkatingSvg)
 	skiingnordic = theme.NewThemedResource(resourceSkiingNordicSvg)
 	soccerone = theme.NewThemedResource(resourceSoccerOneSvg)
 	soccer = theme.NewThemedResource(resourceSoccerSvg)
@@ -159,10 +159,10 @@ func init() {
 	spikedshoes = theme.NewThemedResource(resourceSpikedshoesSvg)
 	spinningtop = theme.NewThemedResource(resourceSpinningTopSvg)
 	sport = theme.NewThemedResource(resourceSportSvg)
-	sportin = theme.NewThemedResource(resourceSportingSvg)
+	sporting = theme.NewThemedResource(resourceSportingSvg)
 	stretchingone = theme.NewThemedResource(resourceStretchingOneSvg)
 	swimmingpool = theme.NewThemedResource(resourceSwimmingPoolSvg)
-	swimmingrin = theme.NewThemedResource(resourceSwimmingRingSvg)
+	swimmingring = theme.NewThemedResource(resourceSwimmingRingSvg)
 	tabletennis = theme.NewThemedResource(resourceTabletennisSvg)
 	targetone = theme.NewThemedResource(resourceTargetOneSvg)
 	targettwo = theme.NewThemedResource(resourceTargetTwoSvg)
@@ -176,9 +176,9 @@ func init() {
 	volleyball = theme.NewThemedResource(resourceVolleyballSvg)
 	waterpoloone = theme.NewThemedResource(resourceWaterpoloOneSvg)
 	waterpolo = theme.NewThemedResource(resourceWaterpoloSvg)
-	weightliftin = theme.NewThemedResource(resourceWeightliftingSvg)
-	whistlin = theme.NewThemedResource(resourceWhistlingSvg)
-	wingsuitflyin = theme.NewThemedResource(resourceWingsuitFlyingSvg)
+	weightlifting = theme.NewThemedResource(resourceWeightliftingSvg)
+	whistling = theme.NewThemedResource(resourceWhistlingSvg)
+	wingsuitflying = theme.NewThemedResource(resourceWingsuitFlyingSvg)
 }
 
 // AirbikeIcon returns Airbike icon resource
@@ -216,9 +216,9 @@ func BalanceoneIcon() fyne.Resource {
 	return balanceone
 }
 
-// BaokemenIcon returns Baokemen icon resource
-func BaokemenIcon() fyne.Resource {
-	return baokemen
+// BaokemengIcon returns Baokemeng icon resource
+func BaokemengIcon() fyne.Resource {
+	return baokemeng
 }
 
 // BaseballbatIcon returns Baseballbat icon resource
@@ -256,9 +256,9 @@ func BottombaroneIcon() fyne.Resource {
 	return bottombarone
 }
 
-// BowlinIcon returns Bowlin icon resource
-func BowlinIcon() fyne.Resource {
-	return bowlin
+// BowlingIcon returns Bowling icon resource
+func BowlingIcon() fyne.Resource {
+	return bowling
 }
 
 // BoxingoneIcon returns Boxingone icon resource
@@ -266,9 +266,9 @@ func BoxingoneIcon() fyne.Resource {
 	return boxingone
 }
 
-// BoxinIcon returns Boxin icon resource
-func BoxinIcon() fyne.Resource {
-	return boxin
+// BoxingIcon returns Boxing icon resource
+func BoxingIcon() fyne.Resource {
+	return boxing
 }
 
 // CheckerboardIcon returns Checkerboard icon resource
@@ -291,9 +291,9 @@ func CourtIcon() fyne.Resource {
 	return court
 }
 
-// CurlinIcon returns Curlin icon resource
-func CurlinIcon() fyne.Resource {
-	return curlin
+// CurlingIcon returns Curling icon resource
+func CurlingIcon() fyne.Resource {
+	return curling
 }
 
 // DivingbottleIcon returns Divingbottle icon resource
@@ -406,9 +406,9 @@ func PlayvolleyballIcon() fyne.Resource {
 	return playvolleyball
 }
 
-// RidinIcon returns Ridin icon resource
-func RidinIcon() fyne.Resource {
-	return ridin
+// RidingIcon returns Riding icon resource
+func RidingIcon() fyne.Resource {
+	return riding
 }
 
 // RingsIcon returns Rings icon resource
@@ -426,14 +426,14 @@ func RopeskippingoneIcon() fyne.Resource {
 	return ropeskippingone
 }
 
-// RopeskippinIcon returns Ropeskippin icon resource
-func RopeskippinIcon() fyne.Resource {
-	return ropeskippin
+// RopeskippingIcon returns Ropeskipping icon resource
+func RopeskippingIcon() fyne.Resource {
+	return ropeskipping
 }
 
-// RowinIcon returns Rowin icon resource
-func RowinIcon() fyne.Resource {
-	return rowin
+// RowingIcon returns Rowing icon resource
+func RowingIcon() fyne.Resource {
+	return rowing
 }
 
 // RugbyoneIcon returns Rugbyone icon resource
@@ -461,9 +461,9 @@ func SkateIcon() fyne.Resource {
 	return skate
 }
 
-// SkatinIcon returns Skatin icon resource
-func SkatinIcon() fyne.Resource {
-	return skatin
+// SkatingIcon returns Skating icon resource
+func SkatingIcon() fyne.Resource {
+	return skating
 }
 
 // SkiingnordicIcon returns Skiingnordic icon resource
@@ -501,9 +501,9 @@ func SportIcon() fyne.Resource {
 	return sport
 }
 
-// SportinIcon returns Sportin icon resource
-func SportinIcon() fyne.Resource {
-	return sportin
+// SportingIcon returns Sporting icon resource
+func SportingIcon() fyne.Resource {
+	return sporting
 }
 
 // StretchingoneIcon returns Stretchingone icon resource
@@ -516,9 +516,9 @@ func SwimmingpoolIcon() fyne.Resource {
 	return swimmingpool
 }
 
-// SwimmingrinIcon returns Swimmingrin icon resource
-func SwimmingrinIcon() fyne.Resource {
-	return swimmingrin
+// SwimmingringIcon returns Swimmingring icon resource
+func SwimmingringIcon() fyne.Resource {
+	return swimmingring
 }
 
 // TabletennisIcon returns Tabletennis icon resource
@@ -586,17 +586,17 @@ func WaterpoloIcon() fyne.Resource {
 	return waterpolo
 }
 
-// WeightliftinIcon returns Weightliftin icon resource
-func WeightliftinIcon() fyne.Resource {
-	return weightliftin
+// WeightliftingIcon returns Weightlifting icon resource
+func WeightliftingIcon() fyne.Resource {
+	return weightlifting
 }
 
-// WhistlinIcon returns Whistlin icon resource
-func WhistlinIcon() fyne.Resource {
-	return whistlin
+// WhistlingIcon returns Whistling icon resource
+func WhistlingIcon() fyne.Resource {
+	return whistling
 }
 
-// WingsuitflyinIcon returns Wingsuitflyin icon resource
-func WingsuitflyinIcon() fyne.Resource {
-	return wingsuitflyin
+// WingsuitflyingIcon returns Wingsuitflying icon resource
+func WingsuitflyingIcon() fyne.Resource {
+	return wingsuitflying
 }

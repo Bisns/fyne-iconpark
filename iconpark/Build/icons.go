@@ -35,7 +35,7 @@ var (
 	eiffeltower      *theme.ThemedResource
 	elevator         *theme.ThemedResource
 	escalators       *theme.ThemedResource
-	factorybuildin   *theme.ThemedResource
+	factorybuilding  *theme.ThemedResource
 	fenceone         *theme.ThemedResource
 	fencetwo         *theme.ThemedResource
 	ferriswheel      *theme.ThemedResource
@@ -108,7 +108,7 @@ func init() {
 	eiffeltower = theme.NewThemedResource(resourceEiffelTowerSvg)
 	elevator = theme.NewThemedResource(resourceElevatorSvg)
 	escalators = theme.NewThemedResource(resourceEscalatorsSvg)
-	factorybuildin = theme.NewThemedResource(resourceFactoryBuildingSvg)
+	factorybuilding = theme.NewThemedResource(resourceFactoryBuildingSvg)
 	fenceone = theme.NewThemedResource(resourceFenceOneSvg)
 	fencetwo = theme.NewThemedResource(resourceFenceTwoSvg)
 	ferriswheel = theme.NewThemedResource(resourceFerrisWheelSvg)
@@ -288,9 +288,9 @@ func EscalatorsIcon() fyne.Resource {
 	return escalators
 }
 
-// FactorybuildinIcon returns Factorybuildin icon resource
-func FactorybuildinIcon() fyne.Resource {
-	return factorybuildin
+// FactorybuildingIcon returns Factorybuilding icon resource
+func FactorybuildingIcon() fyne.Resource {
+	return factorybuilding
 }
 
 // FenceoneIcon returns Fenceone icon resource

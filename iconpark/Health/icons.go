@@ -19,8 +19,8 @@ var (
 	composition                *theme.ThemedResource
 	crosssociety               *theme.ThemedResource
 	detection                  *theme.ThemedResource
-	ec                         *theme.ThemedResource
-	ee                         *theme.ThemedResource
+	ecg                        *theme.ThemedResource
+	eeg                        *theme.ThemedResource
 	endocrine                  *theme.ThemedResource
 	eyes                       *theme.ThemedResource
 	facialmask                 *theme.ThemedResource
@@ -38,7 +38,7 @@ var (
 	infusion                   *theme.ThemedResource
 	injection                  *theme.ThemedResource
 	loveandhelp                *theme.ThemedResource
-	lun                        *theme.ThemedResource
+	lung                       *theme.ThemedResource
 	mask                       *theme.ThemedResource
 	medicalbox                 *theme.ThemedResource
 	medicalfiles               *theme.ThemedResource
@@ -92,8 +92,8 @@ func init() {
 	composition = theme.NewThemedResource(resourceCompositionSvg)
 	crosssociety = theme.NewThemedResource(resourceCrossSocietySvg)
 	detection = theme.NewThemedResource(resourceDetectionSvg)
-	ec = theme.NewThemedResource(resourceEcgSvg)
-	ee = theme.NewThemedResource(resourceEegSvg)
+	ecg = theme.NewThemedResource(resourceEcgSvg)
+	eeg = theme.NewThemedResource(resourceEegSvg)
 	endocrine = theme.NewThemedResource(resourceEndocrineSvg)
 	eyes = theme.NewThemedResource(resourceEyesSvg)
 	facialmask = theme.NewThemedResource(resourceFacialMaskSvg)
@@ -111,7 +111,7 @@ func init() {
 	infusion = theme.NewThemedResource(resourceInfusionSvg)
 	injection = theme.NewThemedResource(resourceInjectionSvg)
 	loveandhelp = theme.NewThemedResource(resourceLoveAndHelpSvg)
-	lun = theme.NewThemedResource(resourceLungSvg)
+	lung = theme.NewThemedResource(resourceLungSvg)
 	mask = theme.NewThemedResource(resourceMaskSvg)
 	medicalbox = theme.NewThemedResource(resourceMedicalBoxSvg)
 	medicalfiles = theme.NewThemedResource(resourceMedicalFilesSvg)
@@ -208,14 +208,14 @@ func DetectionIcon() fyne.Resource {
 	return detection
 }
 
-// EcIcon returns Ec icon resource
-func EcIcon() fyne.Resource {
-	return ec
+// EcgIcon returns Ecg icon resource
+func EcgIcon() fyne.Resource {
+	return ecg
 }
 
-// EeIcon returns Ee icon resource
-func EeIcon() fyne.Resource {
-	return ee
+// EegIcon returns Eeg icon resource
+func EegIcon() fyne.Resource {
+	return eeg
 }
 
 // EndocrineIcon returns Endocrine icon resource
@@ -303,9 +303,9 @@ func LoveandhelpIcon() fyne.Resource {
 	return loveandhelp
 }
 
-// LunIcon returns Lun icon resource
-func LunIcon() fyne.Resource {
-	return lun
+// LungIcon returns Lung icon resource
+func LungIcon() fyne.Resource {
+	return lung
 }
 
 // MaskIcon returns Mask icon resource

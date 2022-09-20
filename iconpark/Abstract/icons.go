@@ -31,7 +31,7 @@ var (
 	converginggateway             *theme.ThemedResource
 	coordinatesystem              *theme.ThemedResource
 	crossringtwo                  *theme.ThemedResource
-	crossrin                      *theme.ThemedResource
+	crossring                     *theme.ThemedResource
 	crowntwo                      *theme.ThemedResource
 	cubefive                      *theme.ThemedResource
 	cubefour                      *theme.ThemedResource
@@ -60,7 +60,7 @@ var (
 	graphicdesign                 *theme.ThemedResource
 	graphicstitchingfour          *theme.ThemedResource
 	graphicstitchingthree         *theme.ThemedResource
-	graphicstitchin               *theme.ThemedResource
+	graphicstitching              *theme.ThemedResource
 	halo                          *theme.ThemedResource
 	hexagonstrip                  *theme.ThemedResource
 	hexagonal                     *theme.ThemedResource
@@ -71,7 +71,7 @@ var (
 	misalignedsemicircle          *theme.ThemedResource
 	multicircular                 *theme.ThemedResource
 	multirectangle                *theme.ThemedResource
-	multirin                      *theme.ThemedResource
+	multiring                     *theme.ThemedResource
 	multitriangularfour           *theme.ThemedResource
 	multitriangularthree          *theme.ThemedResource
 	multitriangulartwo            *theme.ThemedResource
@@ -107,7 +107,7 @@ var (
 	smartoptimization             *theme.ThemedResource
 	sphere                        *theme.ThemedResource
 	splitbranch                   *theme.ThemedResource
-	stereonestin                  *theme.ThemedResource
+	stereonesting                 *theme.ThemedResource
 	stereoperspective             *theme.ThemedResource
 	switchcontrast                *theme.ThemedResource
 	symboldoublex                 *theme.ThemedResource
@@ -127,7 +127,7 @@ var (
 	twotrianglestwo               *theme.ThemedResource
 	twotriangles                  *theme.ThemedResource
 	updaterotation                *theme.ThemedResource
-	warehousin                    *theme.ThemedResource
+	warehousing                   *theme.ThemedResource
 	whirlwind                     *theme.ThemedResource
 )
 
@@ -155,7 +155,7 @@ func init() {
 	converginggateway = theme.NewThemedResource(resourceConvergingGatewaySvg)
 	coordinatesystem = theme.NewThemedResource(resourceCoordinateSystemSvg)
 	crossringtwo = theme.NewThemedResource(resourceCrossRingTwoSvg)
-	crossrin = theme.NewThemedResource(resourceCrossRingSvg)
+	crossring = theme.NewThemedResource(resourceCrossRingSvg)
 	crowntwo = theme.NewThemedResource(resourceCrownTwoSvg)
 	cubefive = theme.NewThemedResource(resourceCubeFiveSvg)
 	cubefour = theme.NewThemedResource(resourceCubeFourSvg)
@@ -184,7 +184,7 @@ func init() {
 	graphicdesign = theme.NewThemedResource(resourceGraphicDesignSvg)
 	graphicstitchingfour = theme.NewThemedResource(resourceGraphicStitchingFourSvg)
 	graphicstitchingthree = theme.NewThemedResource(resourceGraphicStitchingThreeSvg)
-	graphicstitchin = theme.NewThemedResource(resourceGraphicStitchingSvg)
+	graphicstitching = theme.NewThemedResource(resourceGraphicStitchingSvg)
 	halo = theme.NewThemedResource(resourceHaloSvg)
 	hexagonstrip = theme.NewThemedResource(resourceHexagonStripSvg)
 	hexagonal = theme.NewThemedResource(resourceHexagonalSvg)
@@ -195,7 +195,7 @@ func init() {
 	misalignedsemicircle = theme.NewThemedResource(resourceMisalignedSemicircleSvg)
 	multicircular = theme.NewThemedResource(resourceMultiCircularSvg)
 	multirectangle = theme.NewThemedResource(resourceMultiRectangleSvg)
-	multirin = theme.NewThemedResource(resourceMultiRingSvg)
+	multiring = theme.NewThemedResource(resourceMultiRingSvg)
 	multitriangularfour = theme.NewThemedResource(resourceMultiTriangularFourSvg)
 	multitriangularthree = theme.NewThemedResource(resourceMultiTriangularThreeSvg)
 	multitriangulartwo = theme.NewThemedResource(resourceMultiTriangularTwoSvg)
@@ -231,7 +231,7 @@ func init() {
 	smartoptimization = theme.NewThemedResource(resourceSmartOptimizationSvg)
 	sphere = theme.NewThemedResource(resourceSphereSvg)
 	splitbranch = theme.NewThemedResource(resourceSplitBranchSvg)
-	stereonestin = theme.NewThemedResource(resourceStereoNestingSvg)
+	stereonesting = theme.NewThemedResource(resourceStereoNestingSvg)
 	stereoperspective = theme.NewThemedResource(resourceStereoPerspectiveSvg)
 	switchcontrast = theme.NewThemedResource(resourceSwitchContrastSvg)
 	symboldoublex = theme.NewThemedResource(resourceSymbolDoubleXSvg)
@@ -251,7 +251,7 @@ func init() {
 	twotrianglestwo = theme.NewThemedResource(resourceTwoTrianglesTwoSvg)
 	twotriangles = theme.NewThemedResource(resourceTwoTrianglesSvg)
 	updaterotation = theme.NewThemedResource(resourceUpdateRotationSvg)
-	warehousin = theme.NewThemedResource(resourceWarehousingSvg)
+	warehousing = theme.NewThemedResource(resourceWarehousingSvg)
 	whirlwind = theme.NewThemedResource(resourceWhirlwindSvg)
 }
 
@@ -370,9 +370,9 @@ func CrossringtwoIcon() fyne.Resource {
 	return crossringtwo
 }
 
-// CrossrinIcon returns Crossrin icon resource
-func CrossrinIcon() fyne.Resource {
-	return crossrin
+// CrossringIcon returns Crossring icon resource
+func CrossringIcon() fyne.Resource {
+	return crossring
 }
 
 // CrowntwoIcon returns Crowntwo icon resource
@@ -515,9 +515,9 @@ func GraphicstitchingthreeIcon() fyne.Resource {
 	return graphicstitchingthree
 }
 
-// GraphicstitchinIcon returns Graphicstitchin icon resource
-func GraphicstitchinIcon() fyne.Resource {
-	return graphicstitchin
+// GraphicstitchingIcon returns Graphicstitching icon resource
+func GraphicstitchingIcon() fyne.Resource {
+	return graphicstitching
 }
 
 // HaloIcon returns Halo icon resource
@@ -570,9 +570,9 @@ func MultirectangleIcon() fyne.Resource {
 	return multirectangle
 }
 
-// MultirinIcon returns Multirin icon resource
-func MultirinIcon() fyne.Resource {
-	return multirin
+// MultiringIcon returns Multiring icon resource
+func MultiringIcon() fyne.Resource {
+	return multiring
 }
 
 // MultitriangularfourIcon returns Multitriangularfour icon resource
@@ -750,9 +750,9 @@ func SplitbranchIcon() fyne.Resource {
 	return splitbranch
 }
 
-// StereonestinIcon returns Stereonestin icon resource
-func StereonestinIcon() fyne.Resource {
-	return stereonestin
+// StereonestingIcon returns Stereonesting icon resource
+func StereonestingIcon() fyne.Resource {
+	return stereonesting
 }
 
 // StereoperspectiveIcon returns Stereoperspective icon resource
@@ -850,9 +850,9 @@ func UpdaterotationIcon() fyne.Resource {
 	return updaterotation
 }
 
-// WarehousinIcon returns Warehousin icon resource
-func WarehousinIcon() fyne.Resource {
-	return warehousin
+// WarehousingIcon returns Warehousing icon resource
+func WarehousingIcon() fyne.Resource {
+	return warehousing
 }
 
 // WhirlwindIcon returns Whirlwind icon resource

@@ -35,7 +35,7 @@ var (
 	rotatingadd        *theme.ThemedResource
 	rotatingforward    *theme.ThemedResource
 	rotation           *theme.ThemedResource
-	scansettin         *theme.ThemedResource
+	scansetting        *theme.ThemedResource
 	screenrotation     *theme.ThemedResource
 	stickers           *theme.ThemedResource
 	switchtrack        *theme.ThemedResource
@@ -69,7 +69,7 @@ func init() {
 	rotatingadd = theme.NewThemedResource(resourceRotatingAddSvg)
 	rotatingforward = theme.NewThemedResource(resourceRotatingForwardSvg)
 	rotation = theme.NewThemedResource(resourceRotationSvg)
-	scansettin = theme.NewThemedResource(resourceScanSettingSvg)
+	scansetting = theme.NewThemedResource(resourceScanSettingSvg)
 	screenrotation = theme.NewThemedResource(resourceScreenRotationSvg)
 	stickers = theme.NewThemedResource(resourceStickersSvg)
 	switchtrack = theme.NewThemedResource(resourceSwitchTrackSvg)
@@ -210,9 +210,9 @@ func RotationIcon() fyne.Resource {
 	return rotation
 }
 
-// ScansettinIcon returns Scansettin icon resource
-func ScansettinIcon() fyne.Resource {
-	return scansettin
+// ScansettingIcon returns Scansetting icon resource
+func ScansettingIcon() fyne.Resource {
+	return scansetting
 }
 
 // ScreenrotationIcon returns Screenrotation icon resource

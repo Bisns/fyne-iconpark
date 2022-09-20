@@ -26,7 +26,7 @@ var (
 	hairclip         *theme.ThemedResource
 	handcream        *theme.ThemedResource
 	handwashingfluid *theme.ThemedResource
-	handwashin       *theme.ThemedResource
+	handwashing      *theme.ThemedResource
 	healthproducts   *theme.ThemedResource
 	jewelry          *theme.ThemedResource
 	lipgloss         *theme.ThemedResource
@@ -50,7 +50,7 @@ var (
 	reel             *theme.ThemedResource
 	scissors         *theme.ThemedResource
 	shaverone        *theme.ThemedResource
-	shavin           *theme.ThemedResource
+	shaving          *theme.ThemedResource
 	soapbubble       *theme.ThemedResource
 	spacandle        *theme.ThemedResource
 	straightrazor    *theme.ThemedResource
@@ -75,7 +75,7 @@ func init() {
 	hairclip = theme.NewThemedResource(resourceHairClipSvg)
 	handcream = theme.NewThemedResource(resourceHandCreamSvg)
 	handwashingfluid = theme.NewThemedResource(resourceHandwashingFluidSvg)
-	handwashin = theme.NewThemedResource(resourceHandwashingSvg)
+	handwashing = theme.NewThemedResource(resourceHandwashingSvg)
 	healthproducts = theme.NewThemedResource(resourceHealthProductsSvg)
 	jewelry = theme.NewThemedResource(resourceJewelrySvg)
 	lipgloss = theme.NewThemedResource(resourceLipGlossSvg)
@@ -99,7 +99,7 @@ func init() {
 	reel = theme.NewThemedResource(resourceReelSvg)
 	scissors = theme.NewThemedResource(resourceScissorsSvg)
 	shaverone = theme.NewThemedResource(resourceShaverOneSvg)
-	shavin = theme.NewThemedResource(resourceShavingSvg)
+	shaving = theme.NewThemedResource(resourceShavingSvg)
 	soapbubble = theme.NewThemedResource(resourceSoapBubbleSvg)
 	spacandle = theme.NewThemedResource(resourceSpaCandleSvg)
 	straightrazor = theme.NewThemedResource(resourceStraightRazorSvg)
@@ -195,9 +195,9 @@ func HandwashingfluidIcon() fyne.Resource {
 	return handwashingfluid
 }
 
-// HandwashinIcon returns Handwashin icon resource
-func HandwashinIcon() fyne.Resource {
-	return handwashin
+// HandwashingIcon returns Handwashing icon resource
+func HandwashingIcon() fyne.Resource {
+	return handwashing
 }
 
 // HealthproductsIcon returns Healthproducts icon resource
@@ -315,9 +315,9 @@ func ShaveroneIcon() fyne.Resource {
 	return shaverone
 }
 
-// ShavinIcon returns Shavin icon resource
-func ShavinIcon() fyne.Resource {
-	return shavin
+// ShavingIcon returns Shaving icon resource
+func ShavingIcon() fyne.Resource {
+	return shaving
 }
 
 // SoapbubbleIcon returns Soapbubble icon resource

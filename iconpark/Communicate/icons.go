@@ -22,14 +22,14 @@ var (
 	messagesuccess   *theme.ThemedResource
 	messageunread    *theme.ThemedResource
 	message          *theme.ThemedResource
-	onlinemeetin     *theme.ThemedResource
+	onlinemeeting    *theme.ThemedResource
 	phonecall        *theme.ThemedResource
 	phoneincomingone *theme.ThemedResource
-	phoneincomin     *theme.ThemedResource
+	phoneincoming    *theme.ThemedResource
 	phonemissed      *theme.ThemedResource
 	phoneoff         *theme.ThemedResource
 	phoneoutgoingone *theme.ThemedResource
-	phoneoutgoin     *theme.ThemedResource
+	phoneoutgoing    *theme.ThemedResource
 	phonetelephone   *theme.ThemedResource
 	phonevideocall   *theme.ThemedResource
 	tipsone          *theme.ThemedResource
@@ -52,14 +52,14 @@ func init() {
 	messagesuccess = theme.NewThemedResource(resourceMessageSuccessSvg)
 	messageunread = theme.NewThemedResource(resourceMessageUnreadSvg)
 	message = theme.NewThemedResource(resourceMessageSvg)
-	onlinemeetin = theme.NewThemedResource(resourceOnlineMeetingSvg)
+	onlinemeeting = theme.NewThemedResource(resourceOnlineMeetingSvg)
 	phonecall = theme.NewThemedResource(resourcePhoneCallSvg)
 	phoneincomingone = theme.NewThemedResource(resourcePhoneIncomingOneSvg)
-	phoneincomin = theme.NewThemedResource(resourcePhoneIncomingSvg)
+	phoneincoming = theme.NewThemedResource(resourcePhoneIncomingSvg)
 	phonemissed = theme.NewThemedResource(resourcePhoneMissedSvg)
 	phoneoff = theme.NewThemedResource(resourcePhoneOffSvg)
 	phoneoutgoingone = theme.NewThemedResource(resourcePhoneOutgoingOneSvg)
-	phoneoutgoin = theme.NewThemedResource(resourcePhoneOutgoingSvg)
+	phoneoutgoing = theme.NewThemedResource(resourcePhoneOutgoingSvg)
 	phonetelephone = theme.NewThemedResource(resourcePhoneTelephoneSvg)
 	phonevideocall = theme.NewThemedResource(resourcePhoneVideoCallSvg)
 	tipsone = theme.NewThemedResource(resourceTipsOneSvg)
@@ -137,9 +137,9 @@ func MessageIcon() fyne.Resource {
 	return message
 }
 
-// OnlinemeetinIcon returns Onlinemeetin icon resource
-func OnlinemeetinIcon() fyne.Resource {
-	return onlinemeetin
+// OnlinemeetingIcon returns Onlinemeeting icon resource
+func OnlinemeetingIcon() fyne.Resource {
+	return onlinemeeting
 }
 
 // PhonecallIcon returns Phonecall icon resource
@@ -152,9 +152,9 @@ func PhoneincomingoneIcon() fyne.Resource {
 	return phoneincomingone
 }
 
-// PhoneincominIcon returns Phoneincomin icon resource
-func PhoneincominIcon() fyne.Resource {
-	return phoneincomin
+// PhoneincomingIcon returns Phoneincoming icon resource
+func PhoneincomingIcon() fyne.Resource {
+	return phoneincoming
 }
 
 // PhonemissedIcon returns Phonemissed icon resource
@@ -172,9 +172,9 @@ func PhoneoutgoingoneIcon() fyne.Resource {
 	return phoneoutgoingone
 }
 
-// PhoneoutgoinIcon returns Phoneoutgoin icon resource
-func PhoneoutgoinIcon() fyne.Resource {
-	return phoneoutgoin
+// PhoneoutgoingIcon returns Phoneoutgoing icon resource
+func PhoneoutgoingIcon() fyne.Resource {
+	return phoneoutgoing
 }
 
 // PhonetelephoneIcon returns Phonetelephone icon resource

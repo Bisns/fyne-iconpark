@@ -67,7 +67,7 @@ var (
 	alignmentverticalleft         *theme.ThemedResource
 	alignmentverticalright        *theme.ThemedResource
 	alphabeticalsortingtwo        *theme.ThemedResource
-	alphabeticalsortin            *theme.ThemedResource
+	alphabeticalsorting           *theme.ThemedResource
 	aperturepriority              *theme.ThemedResource
 	applicationmenu               *theme.ThemedResource
 	applicationtwo                *theme.ThemedResource
@@ -102,7 +102,7 @@ var (
 	copy                          *theme.ThemedResource
 	curveadjustment               *theme.ThemedResource
 	cuttingone                    *theme.ThemedResource
-	cuttin                        *theme.ThemedResource
+	cutting                       *theme.ThemedResource
 	damagemap                     *theme.ThemedResource
 	darkmode                      *theme.ThemedResource
 	deeplink                      *theme.ThemedResource
@@ -119,16 +119,16 @@ var (
 	directionadjustment           *theme.ThemedResource
 	direction                     *theme.ThemedResource
 	distortion                    *theme.ThemedResource
-	distributehorizontalspacin    *theme.ThemedResource
+	distributehorizontalspacing   *theme.ThemedResource
 	distributehorizontally        *theme.ThemedResource
-	distributeverticalspacin      *theme.ThemedResource
+	distributeverticalspacing     *theme.ThemedResource
 	distributevertically          *theme.ThemedResource
 	dividinglineone               *theme.ThemedResource
 	dividingline                  *theme.ThemedResource
 	doneall                       *theme.ThemedResource
 	dot                           *theme.ThemedResource
 	downloadfour                  *theme.ThemedResource
-	dra                           *theme.ThemedResource
+	drag                          *theme.ThemedResource
 	dropdownlist                  *theme.ThemedResource
 	dropshadowdown                *theme.ThemedResource
 	dropshadowleft                *theme.ThemedResource
@@ -138,7 +138,7 @@ var (
 	editone                       *theme.ThemedResource
 	edittwo                       *theme.ThemedResource
 	edit                          *theme.ThemedResource
-	editin                        *theme.ThemedResource
+	editing                       *theme.ThemedResource
 	electricwave                  *theme.ThemedResource
 	endpointdisplacement          *theme.ThemedResource
 	endpointflat                  *theme.ThemedResource
@@ -252,7 +252,7 @@ var (
 	masktwo                       *theme.ThemedResource
 	mergecells                    *theme.ThemedResource
 	merge                         *theme.ThemedResource
-	mindmappin                    *theme.ThemedResource
+	mindmapping                   *theme.ThemedResource
 	mindmaplist                   *theme.ThemedResource
 	mindmapmap                    *theme.ThemedResource
 	minusthebottom                *theme.ThemedResource
@@ -267,7 +267,7 @@ var (
 	naturalmode                   *theme.ThemedResource
 	newlybuild                    *theme.ThemedResource
 	next                          *theme.ThemedResource
-	noshootin                     *theme.ThemedResource
+	noshooting                    *theme.ThemedResource
 	nodeflat                      *theme.ThemedResource
 	noderound                     *theme.ThemedResource
 	nodesquare                    *theme.ThemedResource
@@ -291,7 +291,7 @@ var (
 	poundsign                     *theme.ThemedResource
 	pound                         *theme.ThemedResource
 	powerpoint                    *theme.ThemedResource
-	proportionalscalin            *theme.ThemedResource
+	proportionalscaling           *theme.ThemedResource
 	pushpin                       *theme.ThemedResource
 	quote                         *theme.ThemedResource
 	radiotwo                      *theme.ThemedResource
@@ -310,7 +310,7 @@ var (
 	scale                         *theme.ThemedResource
 	scan                          *theme.ThemedResource
 	scanningtwo                   *theme.ThemedResource
-	scannin                       *theme.ThemedResource
+	scanning                      *theme.ThemedResource
 	scatteralignment              *theme.ThemedResource
 	screenshotone                 *theme.ThemedResource
 	screenshottwo                 *theme.ThemedResource
@@ -328,7 +328,7 @@ var (
 	split                         *theme.ThemedResource
 	stamp                         *theme.ThemedResource
 	star                          *theme.ThemedResource
-	stretchin                     *theme.ThemedResource
+	stretching                    *theme.ThemedResource
 	strikethrough                 *theme.ThemedResource
 	subtractselectionone          *theme.ThemedResource
 	subtractselection             *theme.ThemedResource
@@ -336,7 +336,7 @@ var (
 	switchthemes                  *theme.ThemedResource
 	switchingdone                 *theme.ThemedResource
 	tailoringtwo                  *theme.ThemedResource
-	tailorin                      *theme.ThemedResource
+	tailoring                     *theme.ThemedResource
 	textbold                      *theme.ThemedResource
 	textitalic                    *theme.ThemedResource
 	textrotationdown              *theme.ThemedResource
@@ -434,7 +434,7 @@ func init() {
 	alignmentverticalleft = theme.NewThemedResource(resourceAlignmentVerticalLeftSvg)
 	alignmentverticalright = theme.NewThemedResource(resourceAlignmentVerticalRightSvg)
 	alphabeticalsortingtwo = theme.NewThemedResource(resourceAlphabeticalSortingTwoSvg)
-	alphabeticalsortin = theme.NewThemedResource(resourceAlphabeticalSortingSvg)
+	alphabeticalsorting = theme.NewThemedResource(resourceAlphabeticalSortingSvg)
 	aperturepriority = theme.NewThemedResource(resourceAperturePrioritySvg)
 	applicationmenu = theme.NewThemedResource(resourceApplicationMenuSvg)
 	applicationtwo = theme.NewThemedResource(resourceApplicationTwoSvg)
@@ -469,7 +469,7 @@ func init() {
 	copy = theme.NewThemedResource(resourceCopySvg)
 	curveadjustment = theme.NewThemedResource(resourceCurveAdjustmentSvg)
 	cuttingone = theme.NewThemedResource(resourceCuttingOneSvg)
-	cuttin = theme.NewThemedResource(resourceCuttingSvg)
+	cutting = theme.NewThemedResource(resourceCuttingSvg)
 	damagemap = theme.NewThemedResource(resourceDamageMapSvg)
 	darkmode = theme.NewThemedResource(resourceDarkModeSvg)
 	deeplink = theme.NewThemedResource(resourceDeeplinkSvg)
@@ -486,16 +486,16 @@ func init() {
 	directionadjustment = theme.NewThemedResource(resourceDirectionAdjustmentSvg)
 	direction = theme.NewThemedResource(resourceDirectionSvg)
 	distortion = theme.NewThemedResource(resourceDistortionSvg)
-	distributehorizontalspacin = theme.NewThemedResource(resourceDistributeHorizontalSpacingSvg)
+	distributehorizontalspacing = theme.NewThemedResource(resourceDistributeHorizontalSpacingSvg)
 	distributehorizontally = theme.NewThemedResource(resourceDistributeHorizontallySvg)
-	distributeverticalspacin = theme.NewThemedResource(resourceDistributeVerticalSpacingSvg)
+	distributeverticalspacing = theme.NewThemedResource(resourceDistributeVerticalSpacingSvg)
 	distributevertically = theme.NewThemedResource(resourceDistributeVerticallySvg)
 	dividinglineone = theme.NewThemedResource(resourceDividingLineOneSvg)
 	dividingline = theme.NewThemedResource(resourceDividingLineSvg)
 	doneall = theme.NewThemedResource(resourceDoneAllSvg)
 	dot = theme.NewThemedResource(resourceDotSvg)
 	downloadfour = theme.NewThemedResource(resourceDownloadFourSvg)
-	dra = theme.NewThemedResource(resourceDragSvg)
+	drag = theme.NewThemedResource(resourceDragSvg)
 	dropdownlist = theme.NewThemedResource(resourceDropDownListSvg)
 	dropshadowdown = theme.NewThemedResource(resourceDropShadowDownSvg)
 	dropshadowleft = theme.NewThemedResource(resourceDropShadowLeftSvg)
@@ -505,7 +505,7 @@ func init() {
 	editone = theme.NewThemedResource(resourceEditOneSvg)
 	edittwo = theme.NewThemedResource(resourceEditTwoSvg)
 	edit = theme.NewThemedResource(resourceEditSvg)
-	editin = theme.NewThemedResource(resourceEditingSvg)
+	editing = theme.NewThemedResource(resourceEditingSvg)
 	electricwave = theme.NewThemedResource(resourceElectricWaveSvg)
 	endpointdisplacement = theme.NewThemedResource(resourceEndpointDisplacementSvg)
 	endpointflat = theme.NewThemedResource(resourceEndpointFlatSvg)
@@ -619,7 +619,7 @@ func init() {
 	masktwo = theme.NewThemedResource(resourceMaskTwoSvg)
 	mergecells = theme.NewThemedResource(resourceMergeCellsSvg)
 	merge = theme.NewThemedResource(resourceMergeSvg)
-	mindmappin = theme.NewThemedResource(resourceMindMappingSvg)
+	mindmapping = theme.NewThemedResource(resourceMindMappingSvg)
 	mindmaplist = theme.NewThemedResource(resourceMindmapListSvg)
 	mindmapmap = theme.NewThemedResource(resourceMindmapMapSvg)
 	minusthebottom = theme.NewThemedResource(resourceMinusTheBottomSvg)
@@ -634,7 +634,7 @@ func init() {
 	naturalmode = theme.NewThemedResource(resourceNaturalModeSvg)
 	newlybuild = theme.NewThemedResource(resourceNewlybuildSvg)
 	next = theme.NewThemedResource(resourceNextSvg)
-	noshootin = theme.NewThemedResource(resourceNoShootingSvg)
+	noshooting = theme.NewThemedResource(resourceNoShootingSvg)
 	nodeflat = theme.NewThemedResource(resourceNodeFlatSvg)
 	noderound = theme.NewThemedResource(resourceNodeRoundSvg)
 	nodesquare = theme.NewThemedResource(resourceNodeSquareSvg)
@@ -658,7 +658,7 @@ func init() {
 	poundsign = theme.NewThemedResource(resourcePoundSignSvg)
 	pound = theme.NewThemedResource(resourcePoundSvg)
 	powerpoint = theme.NewThemedResource(resourcePowerpointSvg)
-	proportionalscalin = theme.NewThemedResource(resourceProportionalScalingSvg)
+	proportionalscaling = theme.NewThemedResource(resourceProportionalScalingSvg)
 	pushpin = theme.NewThemedResource(resourcePushpinSvg)
 	quote = theme.NewThemedResource(resourceQuoteSvg)
 	radiotwo = theme.NewThemedResource(resourceRadioTwoSvg)
@@ -677,7 +677,7 @@ func init() {
 	scale = theme.NewThemedResource(resourceScaleSvg)
 	scan = theme.NewThemedResource(resourceScanSvg)
 	scanningtwo = theme.NewThemedResource(resourceScanningTwoSvg)
-	scannin = theme.NewThemedResource(resourceScanningSvg)
+	scanning = theme.NewThemedResource(resourceScanningSvg)
 	scatteralignment = theme.NewThemedResource(resourceScatterAlignmentSvg)
 	screenshotone = theme.NewThemedResource(resourceScreenshotOneSvg)
 	screenshottwo = theme.NewThemedResource(resourceScreenshotTwoSvg)
@@ -695,7 +695,7 @@ func init() {
 	split = theme.NewThemedResource(resourceSplitSvg)
 	stamp = theme.NewThemedResource(resourceStampSvg)
 	star = theme.NewThemedResource(resourceStarSvg)
-	stretchin = theme.NewThemedResource(resourceStretchingSvg)
+	stretching = theme.NewThemedResource(resourceStretchingSvg)
 	strikethrough = theme.NewThemedResource(resourceStrikethroughSvg)
 	subtractselectionone = theme.NewThemedResource(resourceSubtractSelectionOneSvg)
 	subtractselection = theme.NewThemedResource(resourceSubtractSelectionSvg)
@@ -703,7 +703,7 @@ func init() {
 	switchthemes = theme.NewThemedResource(resourceSwitchThemesSvg)
 	switchingdone = theme.NewThemedResource(resourceSwitchingDoneSvg)
 	tailoringtwo = theme.NewThemedResource(resourceTailoringTwoSvg)
-	tailorin = theme.NewThemedResource(resourceTailoringSvg)
+	tailoring = theme.NewThemedResource(resourceTailoringSvg)
 	textbold = theme.NewThemedResource(resourceTextBoldSvg)
 	textitalic = theme.NewThemedResource(resourceTextItalicSvg)
 	textrotationdown = theme.NewThemedResource(resourceTextRotationDownSvg)
@@ -1036,9 +1036,9 @@ func AlphabeticalsortingtwoIcon() fyne.Resource {
 	return alphabeticalsortingtwo
 }
 
-// AlphabeticalsortinIcon returns Alphabeticalsortin icon resource
-func AlphabeticalsortinIcon() fyne.Resource {
-	return alphabeticalsortin
+// AlphabeticalsortingIcon returns Alphabeticalsorting icon resource
+func AlphabeticalsortingIcon() fyne.Resource {
+	return alphabeticalsorting
 }
 
 // AperturepriorityIcon returns Aperturepriority icon resource
@@ -1211,9 +1211,9 @@ func CuttingoneIcon() fyne.Resource {
 	return cuttingone
 }
 
-// CuttinIcon returns Cuttin icon resource
-func CuttinIcon() fyne.Resource {
-	return cuttin
+// CuttingIcon returns Cutting icon resource
+func CuttingIcon() fyne.Resource {
+	return cutting
 }
 
 // DamagemapIcon returns Damagemap icon resource
@@ -1296,9 +1296,9 @@ func DistortionIcon() fyne.Resource {
 	return distortion
 }
 
-// DistributehorizontalspacinIcon returns Distributehorizontalspacin icon resource
-func DistributehorizontalspacinIcon() fyne.Resource {
-	return distributehorizontalspacin
+// DistributehorizontalspacingIcon returns Distributehorizontalspacing icon resource
+func DistributehorizontalspacingIcon() fyne.Resource {
+	return distributehorizontalspacing
 }
 
 // DistributehorizontallyIcon returns Distributehorizontally icon resource
@@ -1306,9 +1306,9 @@ func DistributehorizontallyIcon() fyne.Resource {
 	return distributehorizontally
 }
 
-// DistributeverticalspacinIcon returns Distributeverticalspacin icon resource
-func DistributeverticalspacinIcon() fyne.Resource {
-	return distributeverticalspacin
+// DistributeverticalspacingIcon returns Distributeverticalspacing icon resource
+func DistributeverticalspacingIcon() fyne.Resource {
+	return distributeverticalspacing
 }
 
 // DistributeverticallyIcon returns Distributevertically icon resource
@@ -1341,9 +1341,9 @@ func DownloadfourIcon() fyne.Resource {
 	return downloadfour
 }
 
-// DraIcon returns Dra icon resource
-func DraIcon() fyne.Resource {
-	return dra
+// DragIcon returns Drag icon resource
+func DragIcon() fyne.Resource {
+	return drag
 }
 
 // DropdownlistIcon returns Dropdownlist icon resource
@@ -1391,9 +1391,9 @@ func EditIcon() fyne.Resource {
 	return edit
 }
 
-// EditinIcon returns Editin icon resource
-func EditinIcon() fyne.Resource {
-	return editin
+// EditingIcon returns Editing icon resource
+func EditingIcon() fyne.Resource {
+	return editing
 }
 
 // ElectricwaveIcon returns Electricwave icon resource
@@ -1961,9 +1961,9 @@ func MergeIcon() fyne.Resource {
 	return merge
 }
 
-// MindmappinIcon returns Mindmappin icon resource
-func MindmappinIcon() fyne.Resource {
-	return mindmappin
+// MindmappingIcon returns Mindmapping icon resource
+func MindmappingIcon() fyne.Resource {
+	return mindmapping
 }
 
 // MindmaplistIcon returns Mindmaplist icon resource
@@ -2036,9 +2036,9 @@ func NextIcon() fyne.Resource {
 	return next
 }
 
-// NoshootinIcon returns Noshootin icon resource
-func NoshootinIcon() fyne.Resource {
-	return noshootin
+// NoshootingIcon returns Noshooting icon resource
+func NoshootingIcon() fyne.Resource {
+	return noshooting
 }
 
 // NodeflatIcon returns Nodeflat icon resource
@@ -2156,9 +2156,9 @@ func PowerpointIcon() fyne.Resource {
 	return powerpoint
 }
 
-// ProportionalscalinIcon returns Proportionalscalin icon resource
-func ProportionalscalinIcon() fyne.Resource {
-	return proportionalscalin
+// ProportionalscalingIcon returns Proportionalscaling icon resource
+func ProportionalscalingIcon() fyne.Resource {
+	return proportionalscaling
 }
 
 // PushpinIcon returns Pushpin icon resource
@@ -2251,9 +2251,9 @@ func ScanningtwoIcon() fyne.Resource {
 	return scanningtwo
 }
 
-// ScanninIcon returns Scannin icon resource
-func ScanninIcon() fyne.Resource {
-	return scannin
+// ScanningIcon returns Scanning icon resource
+func ScanningIcon() fyne.Resource {
+	return scanning
 }
 
 // ScatteralignmentIcon returns Scatteralignment icon resource
@@ -2341,9 +2341,9 @@ func StarIcon() fyne.Resource {
 	return star
 }
 
-// StretchinIcon returns Stretchin icon resource
-func StretchinIcon() fyne.Resource {
-	return stretchin
+// StretchingIcon returns Stretching icon resource
+func StretchingIcon() fyne.Resource {
+	return stretching
 }
 
 // StrikethroughIcon returns Strikethrough icon resource
@@ -2381,9 +2381,9 @@ func TailoringtwoIcon() fyne.Resource {
 	return tailoringtwo
 }
 
-// TailorinIcon returns Tailorin icon resource
-func TailorinIcon() fyne.Resource {
-	return tailorin
+// TailoringIcon returns Tailoring icon resource
+func TailoringIcon() fyne.Resource {
+	return tailoring
 }
 
 // TextboldIcon returns Textbold icon resource

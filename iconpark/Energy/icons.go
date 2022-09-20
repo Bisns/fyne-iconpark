@@ -11,7 +11,7 @@ var (
 	batterycharge    *theme.ThemedResource
 	batteryempty     *theme.ThemedResource
 	batteryfull      *theme.ThemedResource
-	batteryworkin    *theme.ThemedResource
+	batteryworking   *theme.ThemedResource
 	bloom            *theme.ThemedResource
 	blossom          *theme.ThemedResource
 	cactus           *theme.ThemedResource
@@ -31,8 +31,8 @@ var (
 	outdoor          *theme.ThemedResource
 	pinwheel         *theme.ThemedResource
 	ripple           *theme.ThemedResource
-	saplin           *theme.ThemedResource
-	seedlin          *theme.ThemedResource
+	sapling          *theme.ThemedResource
+	seedling         *theme.ThemedResource
 	treeone          *theme.ThemedResource
 	treetwo          *theme.ThemedResource
 	tree             *theme.ThemedResource
@@ -46,7 +46,7 @@ func init() {
 	batterycharge = theme.NewThemedResource(resourceBatteryChargeSvg)
 	batteryempty = theme.NewThemedResource(resourceBatteryEmptySvg)
 	batteryfull = theme.NewThemedResource(resourceBatteryFullSvg)
-	batteryworkin = theme.NewThemedResource(resourceBatteryWorkingSvg)
+	batteryworking = theme.NewThemedResource(resourceBatteryWorkingSvg)
 	bloom = theme.NewThemedResource(resourceBloomSvg)
 	blossom = theme.NewThemedResource(resourceBlossomSvg)
 	cactus = theme.NewThemedResource(resourceCactusSvg)
@@ -66,8 +66,8 @@ func init() {
 	outdoor = theme.NewThemedResource(resourceOutdoorSvg)
 	pinwheel = theme.NewThemedResource(resourcePinwheelSvg)
 	ripple = theme.NewThemedResource(resourceRippleSvg)
-	saplin = theme.NewThemedResource(resourceSaplingSvg)
-	seedlin = theme.NewThemedResource(resourceSeedlingSvg)
+	sapling = theme.NewThemedResource(resourceSaplingSvg)
+	seedling = theme.NewThemedResource(resourceSeedlingSvg)
 	treeone = theme.NewThemedResource(resourceTreeOneSvg)
 	treetwo = theme.NewThemedResource(resourceTreeTwoSvg)
 	tree = theme.NewThemedResource(resourceTreeSvg)
@@ -92,9 +92,9 @@ func BatteryfullIcon() fyne.Resource {
 	return batteryfull
 }
 
-// BatteryworkinIcon returns Batteryworkin icon resource
-func BatteryworkinIcon() fyne.Resource {
-	return batteryworkin
+// BatteryworkingIcon returns Batteryworking icon resource
+func BatteryworkingIcon() fyne.Resource {
+	return batteryworking
 }
 
 // BloomIcon returns Bloom icon resource
@@ -192,14 +192,14 @@ func RippleIcon() fyne.Resource {
 	return ripple
 }
 
-// SaplinIcon returns Saplin icon resource
-func SaplinIcon() fyne.Resource {
-	return saplin
+// SaplingIcon returns Sapling icon resource
+func SaplingIcon() fyne.Resource {
+	return sapling
 }
 
-// SeedlinIcon returns Seedlin icon resource
-func SeedlinIcon() fyne.Resource {
-	return seedlin
+// SeedlingIcon returns Seedling icon resource
+func SeedlingIcon() fyne.Resource {
+	return seedling
 }
 
 // TreeoneIcon returns Treeone icon resource

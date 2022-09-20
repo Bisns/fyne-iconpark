@@ -75,7 +75,7 @@ var (
 	tencentqq       *theme.ThemedResource
 	tiktok          *theme.ThemedResource
 	topbuzz         *theme.ThemedResource
-	tuchon          *theme.ThemedResource
+	tuchong         *theme.ThemedResource
 	tumblr          *theme.ThemedResource
 	twitter         *theme.ThemedResource
 	ulikecam        *theme.ThemedResource
@@ -90,7 +90,7 @@ var (
 	xingtu          *theme.ThemedResource
 	youtobe         *theme.ThemedResource
 	youtube         *theme.ThemedResource
-	zijinyunyin     *theme.ThemedResource
+	zijinyunying    *theme.ThemedResource
 )
 
 func init() {
@@ -161,7 +161,7 @@ func init() {
 	tencentqq = theme.NewThemedResource(resourceTencentQqSvg)
 	tiktok = theme.NewThemedResource(resourceTiktokSvg)
 	topbuzz = theme.NewThemedResource(resourceTopbuzzSvg)
-	tuchon = theme.NewThemedResource(resourceTuchongSvg)
+	tuchong = theme.NewThemedResource(resourceTuchongSvg)
 	tumblr = theme.NewThemedResource(resourceTumblrSvg)
 	twitter = theme.NewThemedResource(resourceTwitterSvg)
 	ulikecam = theme.NewThemedResource(resourceUlikecamSvg)
@@ -176,7 +176,7 @@ func init() {
 	xingtu = theme.NewThemedResource(resourceXingtuSvg)
 	youtobe = theme.NewThemedResource(resourceYoutobeSvg)
 	youtube = theme.NewThemedResource(resourceYoutubeSvg)
-	zijinyunyin = theme.NewThemedResource(resourceZijinyunyingSvg)
+	zijinyunying = theme.NewThemedResource(resourceZijinyunyingSvg)
 }
 
 // AdobeillustrateIcon returns Adobeillustrate icon resource
@@ -514,9 +514,9 @@ func TopbuzzIcon() fyne.Resource {
 	return topbuzz
 }
 
-// TuchonIcon returns Tuchon icon resource
-func TuchonIcon() fyne.Resource {
-	return tuchon
+// TuchongIcon returns Tuchong icon resource
+func TuchongIcon() fyne.Resource {
+	return tuchong
 }
 
 // TumblrIcon returns Tumblr icon resource
@@ -589,7 +589,7 @@ func YoutubeIcon() fyne.Resource {
 	return youtube
 }
 
-// ZijinyunyinIcon returns Zijinyunyin icon resource
-func ZijinyunyinIcon() fyne.Resource {
-	return zijinyunyin
+// ZijinyunyingIcon returns Zijinyunying icon resource
+func ZijinyunyingIcon() fyne.Resource {
+	return zijinyunying
 }

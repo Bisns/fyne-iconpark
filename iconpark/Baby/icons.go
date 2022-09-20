@@ -16,7 +16,7 @@ var (
 	babymobile        *theme.ThemedResource
 	babyone           *theme.ThemedResource
 	babypants         *theme.ThemedResource
-	babyslin          *theme.ThemedResource
+	babysling         *theme.ThemedResource
 	babytaste         *theme.ThemedResource
 	bib               *theme.ThemedResource
 	boostercarseat    *theme.ThemedResource
@@ -54,7 +54,7 @@ var (
 	sippycup          *theme.ThemedResource
 	sleepone          *theme.ThemedResource
 	steoller          *theme.ThemedResource
-	tireswin          *theme.ThemedResource
+	tireswing         *theme.ThemedResource
 )
 
 func init() {
@@ -66,7 +66,7 @@ func init() {
 	babymobile = theme.NewThemedResource(resourceBabyMobileSvg)
 	babyone = theme.NewThemedResource(resourceBabyOneSvg)
 	babypants = theme.NewThemedResource(resourceBabyPantsSvg)
-	babyslin = theme.NewThemedResource(resourceBabySlingSvg)
+	babysling = theme.NewThemedResource(resourceBabySlingSvg)
 	babytaste = theme.NewThemedResource(resourceBabyTasteSvg)
 	bib = theme.NewThemedResource(resourceBibSvg)
 	boostercarseat = theme.NewThemedResource(resourceBoosterCarSeatSvg)
@@ -104,7 +104,7 @@ func init() {
 	sippycup = theme.NewThemedResource(resourceSippyCupSvg)
 	sleepone = theme.NewThemedResource(resourceSleepOneSvg)
 	steoller = theme.NewThemedResource(resourceSteollerSvg)
-	tireswin = theme.NewThemedResource(resourceTireSwingSvg)
+	tireswing = theme.NewThemedResource(resourceTireSwingSvg)
 }
 
 // BabyappIcon returns Babyapp icon resource
@@ -147,9 +147,9 @@ func BabypantsIcon() fyne.Resource {
 	return babypants
 }
 
-// BabyslinIcon returns Babyslin icon resource
-func BabyslinIcon() fyne.Resource {
-	return babyslin
+// BabyslingIcon returns Babysling icon resource
+func BabyslingIcon() fyne.Resource {
+	return babysling
 }
 
 // BabytasteIcon returns Babytaste icon resource
@@ -337,7 +337,7 @@ func SteollerIcon() fyne.Resource {
 	return steoller
 }
 
-// TireswinIcon returns Tireswin icon resource
-func TireswinIcon() fyne.Resource {
-	return tireswin
+// TireswingIcon returns Tireswing icon resource
+func TireswingIcon() fyne.Resource {
+	return tireswing
 }
