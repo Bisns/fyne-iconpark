@@ -39,6 +39,7 @@ var keywords = map[string]bool{
 	"import":      true,
 	"return":      true,
 	"var":         true,
+	"theme":       true,
 }
 
 func cutResourceName(s string) string {
