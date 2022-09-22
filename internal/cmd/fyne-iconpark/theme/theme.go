@@ -16,7 +16,17 @@ var myfont = &fyne.StaticResource{
 	StaticContent: font,
 }
 
-type MyTheme struct{}
+//go:embed logo.ico
+var logo []byte
+
+var Ico = &fyne.StaticResource{
+	StaticName:    "logo.ico",
+	StaticContent: logo,
+}
+
+type MyTheme struct {
+	Theme string
+}
 
 var _ fyne.Theme = (*MyTheme)(nil)
 
@@ -26,14 +36,25 @@ func (m *MyTheme) Font(_ fyne.TextStyle) fyne.Resource {
 }
 
 func (m *MyTheme) Size(n fyne.ThemeSizeName) float32 {
-	if n == theme.SizeNameInlineIcon {
-		return 48
+	//if n == theme.SizeNameInlineIcon {
+	//	return 48
+	//}
+	if n == theme.SizeNameScrollBar {
+		return 10
+	}
+	if n == theme.SizeNameScrollBarSmall {
+		return 3
 	}
 	return theme.DefaultTheme().Size(n)
 }
 
 func (m *MyTheme) Color(n fyne.ThemeColorName, v fyne.ThemeVariant) color.Color {
-	v = theme.VariantDark
+	switch m.Theme {
+	case "Dark":
+		v = theme.VariantDark
+	case "Light":
+		v = theme.VariantLight
+	}
 	return theme.DefaultTheme().Color(n, v)
 }
 

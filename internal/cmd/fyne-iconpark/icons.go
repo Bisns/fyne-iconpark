@@ -2,10 +2,6 @@ package main
 
 import (
 	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/widget"
 	"github.com/Bisns/fyne-iconpark/iconpark/Abstract"
 	"github.com/Bisns/fyne-iconpark/iconpark/Animals"
 	"github.com/Bisns/fyne-iconpark/iconpark/Arrows"
@@ -45,7 +41,6 @@ import (
 	"github.com/Bisns/fyne-iconpark/iconpark/Time"
 	"github.com/Bisns/fyne-iconpark/iconpark/Travel"
 	"github.com/Bisns/fyne-iconpark/iconpark/Weather"
-	"github.com/Bisns/fyne-iconpark/internal/cmd/example/theme"
 )
 
 type Icon struct {
@@ -2713,57 +2708,4 @@ var icons = []Icon{
 	{Others.WeixinshakeIcon(), "其它", "Others.WeixinshakeIcon()"},
 	{Others.WeixintopstoriesIcon(), "其它", "Others.WeixintopstoriesIcon()"},
 	{Others.WifiIcon(), "其它", "Others.WifiIcon()"},
-}
-
-func main() {
-	a := app.New()
-	a.Settings().SetTheme(&theme.MyTheme{})
-	w := a.NewWindow("示例")
-	w.Resize(fyne.NewSize(800, 600))
-
-	Categorys := []string{"基础", "安全 & 防护", "办公文档", "编辑", "表情", "测量 & 试验", "抽象图形", "电商财产", "动物", "多媒体音乐", "服饰", "符号标识", "工业", "化妆美妆", "几何图形", "建筑", "箭头方向", "交流沟通", "交通旅游", "界面组件", "链接", "美颜调整", "母婴儿童", "能源 & 生命", "品牌", "生活", "时间日期", "食品", "手势动作", "数据", "数据图表", "体育运动", "天气", "星座", "医疗健康", "硬件", "用户人名", "游戏", "其它"}
-
-	tabs := container.NewAppTabs(tabItem(w, Categorys)...)
-	tabs.SetTabLocation(container.TabLocationLeading)
-
-	w.SetContent(tabs)
-
-	w.CenterOnScreen()
-	w.ShowAndRun()
-}
-
-func tabItem(w fyne.Window, tabName []string) []*container.TabItem {
-	var tabItems []*container.TabItem
-	for _, n := range tabName {
-		buttonList := container.New(layout.NewGridWrapLayout(fyne.NewSize(80, 80)))
-		for _, b := range genButton(w, n) {
-			buttonList.Add(b)
-		}
-
-		tabItems = append(tabItems, container.NewTabItem(n, container.NewScroll(buttonList)))
-	}
-	return tabItems
-}
-
-func genButton(w fyne.Window, category string) []*widget.Button {
-	var buttons []*widget.Button
-	for _, icon := range getIcon(category) {
-		d := icon // 重新赋值，不然变量是最后一个没有变化
-
-		b := widget.NewButtonWithIcon("", d.Resource, func() {
-			w.Clipboard().SetContent(d.FuncName)
-		})
-		buttons = append(buttons, b)
-	}
-	return buttons
-}
-
-func getIcon(category string) []Icon {
-	var iconsC []Icon
-	for _, icon := range icons {
-		if icon.Category == category {
-			iconsC = append(iconsC, icon)
-		}
-	}
-	return iconsC
 }
