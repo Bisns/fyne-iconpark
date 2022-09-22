@@ -73,7 +73,7 @@ var (
 	swimsuit             *theme.ThemedResource
 	tshirt               *theme.ThemedResource
 	thesingleshoulderbag *theme.ThemedResource
-	theme                *theme.ThemedResource
+	theme_               *theme.ThemedResource
 	threedglasses        *theme.ThemedResource
 	trousersbellbottoms  *theme.ThemedResource
 	trunk                *theme.ThemedResource
@@ -148,7 +148,7 @@ func init() {
 	swimsuit = theme.NewThemedResource(resourceSwimsuitSvg)
 	tshirt = theme.NewThemedResource(resourceTShirtSvg)
 	thesingleshoulderbag = theme.NewThemedResource(resourceTheSingleShoulderBagSvg)
-	theme = theme.NewThemedResource(resourceThemeSvg)
+	theme_ = theme.NewThemedResource(resourceThemeSvg)
 	threedglasses = theme.NewThemedResource(resourceThreeDGlassesSvg)
 	trousersbellbottoms = theme.NewThemedResource(resourceTrousersBellBottomsSvg)
 	trunk = theme.NewThemedResource(resourceTrunkSvg)
@@ -484,7 +484,7 @@ func ThesingleshoulderbagIcon() fyne.Resource {
 
 // ThemeIcon returns Theme icon resource
 func ThemeIcon() fyne.Resource {
-	return theme
+	return theme_
 }
 
 // ThreedglassesIcon returns Threedglasses icon resource
