@@ -20,6 +20,16 @@ func main() {
 	w := a.NewWindow("Fyne IconPark 图标库")
 	w.Resize(fyne.NewSize(680, 600))
 
+	// 按 esc 关闭 dialog
+	w.Canvas().SetOnTypedKey(func(key *fyne.KeyEvent) {
+		switch key.Name {
+		case fyne.KeyEscape:
+			if len(w.Canvas().Overlays().List()) > 0 {
+				w.Canvas().Overlays().Top().Hide()
+			}
+		}
+	})
+
 	Categorys := []string{"基础", "安全 & 防护", "办公文档", "编辑", "表情", "测量 & 试验", "抽象图形", "电商财产", "动物", "多媒体音乐", "服饰", "符号标识", "工业", "化妆美妆", "几何图形", "建筑", "箭头方向", "交流沟通", "交通旅游", "界面组件", "链接", "美颜调整", "母婴儿童", "能源 & 生命", "品牌", "生活", "时间日期", "食品", "手势动作", "数据", "数据图表", "体育运动", "天气", "星座", "医疗健康", "硬件", "用户人名", "游戏", "其它"}
 	tabsIcon := container.NewDocTabs(tabItem(w, Categorys)...)
 	tabsIcon.SetTabLocation(container.TabLocationLeading)
@@ -57,7 +67,7 @@ func genButton(w fyne.Window, category string) []*widget.Button {
 			img := canvas.NewImageFromResource(d.Resource)
 			img.SetMinSize(fyne.NewSize(200, 200))
 
-			dialog.ShowCustomConfirm("预览图标", "复制", "取消", container.NewCenter(img), func(isCopy bool) {
+			dialog.ShowCustomConfirm("预览图标 "+d.FuncName, "复制", "取消", container.NewCenter(img), func(isCopy bool) {
 				if isCopy {
 					go w.Clipboard().SetContent(d.FuncName)
 				}
